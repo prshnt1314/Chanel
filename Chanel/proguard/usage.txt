@@ -1,0 +1,1785 @@
+com.chanel.BuildConfig
+com.chanel.CloudEndpointUtils:
+    protected static final boolean LOCAL_ANDROID_RUN
+    protected static final java.lang.String LOCAL_APP_ENGINE_SERVER_URL
+    protected static final java.lang.String LOCAL_APP_ENGINE_SERVER_URL_FOR_ANDROID
+    26:26:public CloudEndpointUtils()
+    93:95:public static void logAndShow(android.app.Activity,java.lang.String,java.lang.String)
+    109:121:public static void logAndShow(android.app.Activity,java.lang.String,java.lang.Throwable)
+    132:140:public static void showError(android.app.Activity,java.lang.String)
+com.chanel.CloudEndpointUtils$2
+com.chanel.GCMIntentService:
+    protected static final java.lang.String PROJECT_NUMBER
+com.chanel.Manifest
+com.chanel.Manifest$permission
+com.chanel.R
+com.chanel.R$attr
+com.chanel.R$drawable
+com.chanel.R$id
+com.chanel.R$layout
+com.chanel.R$string
+com.chanel.R$style
+com.chanel.deviceinfoendpoint.Deviceinfoendpoint:
+    public static final java.lang.String DEFAULT_ROOT_URL
+    public static final java.lang.String DEFAULT_SERVICE_PATH
+    public static final java.lang.String DEFAULT_BASE_URL
+    104:105:public Deviceinfoendpoint(com.google.api.client.http.HttpTransport,com.google.api.client.json.JsonFactory,com.google.api.client.http.HttpRequestInitializer)
+    309:311:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$ListDeviceInfo listDeviceInfo()
+    518:520:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$UpdateDeviceInfo updateDeviceInfo(com.chanel.deviceinfoendpoint.model.DeviceInfo)
+com.chanel.deviceinfoendpoint.Deviceinfoendpoint$Builder:
+    646:646:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$Builder setHttpRequestInitializer(com.google.api.client.http.HttpRequestInitializer)
+    651:651:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$Builder setApplicationName(java.lang.String)
+    656:656:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$Builder setSuppressPatternChecks(boolean)
+    661:661:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$Builder setSuppressRequiredParameterChecks(boolean)
+    666:666:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$Builder setSuppressAllChecks(boolean)
+    676:676:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$Builder setDeviceinfoendpointRequestInitializer(com.chanel.deviceinfoendpoint.DeviceinfoendpointRequestInitializer)
+    1:1:public bridge synthetic com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder setApplicationName(java.lang.String)
+    1:1:public bridge synthetic com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder setHttpRequestInitializer(com.google.api.client.http.HttpRequestInitializer)
+    1:1:public bridge synthetic com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient build()
+    1:1:public bridge synthetic com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder setSuppressAllChecks(boolean)
+    1:1:public bridge synthetic com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder setSuppressRequiredParameterChecks(boolean)
+    1:1:public bridge synthetic com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder setSuppressPatternChecks(boolean)
+com.chanel.deviceinfoendpoint.Deviceinfoendpoint$GetDeviceInfo:
+    private static final java.lang.String REST_PATH
+    158:158:public com.google.api.client.http.HttpResponse executeUsingHead()
+    163:163:public com.google.api.client.http.HttpRequest buildHttpRequestUsingHead()
+    168:168:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$GetDeviceInfo setAlt(java.lang.String)
+    173:173:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$GetDeviceInfo setFields(java.lang.String)
+    178:178:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$GetDeviceInfo setKey(java.lang.String)
+    183:183:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$GetDeviceInfo setOauthToken(java.lang.String)
+    188:188:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$GetDeviceInfo setPrettyPrint(java.lang.Boolean)
+    193:193:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$GetDeviceInfo setQuotaUser(java.lang.String)
+    198:198:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$GetDeviceInfo setUserIp(java.lang.String)
+    208:208:public java.lang.String getId()
+    212:213:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$GetDeviceInfo setId(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setAlt(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setPrettyPrint(java.lang.Boolean)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setUserIp(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setKey(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setFields(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setQuotaUser(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setOauthToken(java.lang.String)
+com.chanel.deviceinfoendpoint.Deviceinfoendpoint$InsertDeviceInfo:
+    private static final java.lang.String REST_PATH
+    260:260:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$InsertDeviceInfo setAlt(java.lang.String)
+    265:265:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$InsertDeviceInfo setFields(java.lang.String)
+    270:270:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$InsertDeviceInfo setKey(java.lang.String)
+    275:275:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$InsertDeviceInfo setOauthToken(java.lang.String)
+    280:280:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$InsertDeviceInfo setPrettyPrint(java.lang.Boolean)
+    285:285:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$InsertDeviceInfo setQuotaUser(java.lang.String)
+    290:290:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$InsertDeviceInfo setUserIp(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setAlt(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setPrettyPrint(java.lang.Boolean)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setUserIp(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setKey(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setFields(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setQuotaUser(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setOauthToken(java.lang.String)
+com.chanel.deviceinfoendpoint.Deviceinfoendpoint$ListDeviceInfo
+com.chanel.deviceinfoendpoint.Deviceinfoendpoint$RemoveDeviceInfo:
+    private static final java.lang.String REST_PATH
+    453:453:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$RemoveDeviceInfo setAlt(java.lang.String)
+    458:458:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$RemoveDeviceInfo setFields(java.lang.String)
+    463:463:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$RemoveDeviceInfo setKey(java.lang.String)
+    468:468:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$RemoveDeviceInfo setOauthToken(java.lang.String)
+    473:473:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$RemoveDeviceInfo setPrettyPrint(java.lang.Boolean)
+    478:478:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$RemoveDeviceInfo setQuotaUser(java.lang.String)
+    483:483:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$RemoveDeviceInfo setUserIp(java.lang.String)
+    493:493:public java.lang.String getId()
+    497:498:public com.chanel.deviceinfoendpoint.Deviceinfoendpoint$RemoveDeviceInfo setId(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setAlt(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setPrettyPrint(java.lang.Boolean)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setUserIp(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setKey(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setFields(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setQuotaUser(java.lang.String)
+    1:1:public bridge synthetic com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setOauthToken(java.lang.String)
+com.chanel.deviceinfoendpoint.Deviceinfoendpoint$UpdateDeviceInfo
+com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest:
+    57:57:public java.lang.String getAlt()
+    62:63:public com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setAlt(java.lang.String)
+    74:74:public java.lang.String getFields()
+    79:80:public com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setFields(java.lang.String)
+    95:95:public java.lang.String getKey()
+    103:104:public com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setKey(java.lang.String)
+    115:115:public java.lang.String getOauthToken()
+    120:121:public com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setOauthToken(java.lang.String)
+    132:132:public java.lang.Boolean getPrettyPrint()
+    137:138:public com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setPrettyPrint(java.lang.Boolean)
+    153:153:public java.lang.String getQuotaUser()
+    161:162:public com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setQuotaUser(java.lang.String)
+    177:177:public java.lang.String getUserIp()
+    185:186:public com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setUserIp(java.lang.String)
+    201:201:public com.chanel.deviceinfoendpoint.DeviceinfoendpointRequest setRequestHeaders(com.google.api.client.http.HttpHeaders)
+    1:1:public bridge synthetic com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest setRequestHeaders(com.google.api.client.http.HttpHeaders)
+com.chanel.deviceinfoendpoint.DeviceinfoendpointRequestInitializer
+com.chanel.deviceinfoendpoint.DeviceinfoendpointScopes
+com.chanel.deviceinfoendpoint.model.CollectionResponseDeviceInfo
+com.chanel.deviceinfoendpoint.model.DeviceInfo:
+    56:56:public java.lang.String getDeviceInformation()
+    86:86:public java.lang.Long getTimestamp()
+com.chanel.messageEndpoint.MessageEndpoint:
+    public static final java.lang.String DEFAULT_ROOT_URL
+    public static final java.lang.String DEFAULT_SERVICE_PATH
+    public static final java.lang.String DEFAULT_BASE_URL
+    104:105:public MessageEndpoint(com.google.api.client.http.HttpTransport,com.google.api.client.json.JsonFactory,com.google.api.client.http.HttpRequestInitializer)
+    245:247:public com.chanel.messageEndpoint.MessageEndpoint$SendMessage sendMessage(java.lang.String)
+com.chanel.messageEndpoint.MessageEndpoint$Builder:
+    389:389:public com.chanel.messageEndpoint.MessageEndpoint$Builder setHttpRequestInitializer(com.google.api.client.http.HttpRequestInitializer)
+    394:394:public com.chanel.messageEndpoint.MessageEndpoint$Builder setApplicationName(java.lang.String)
+    399:399:public com.chanel.messageEndpoint.MessageEndpoint$Builder setSuppressPatternChecks(boolean)
+    404:404:public com.chanel.messageEndpoint.MessageEndpoint$Builder setSuppressRequiredParameterChecks(boolean)
+    409:409:public com.chanel.messageEndpoint.MessageEndpoint$Builder setSuppressAllChecks(boolean)
+    419:419:public com.chanel.messageEndpoint.MessageEndpoint$Builder setMessageEndpointRequestInitializer(com.chanel.messageEndpoint.MessageEndpointRequestInitializer)
+    1:1:public bridge synthetic com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder setApplicationName(java.lang.String)
+    1:1:public bridge synthetic com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder setHttpRequestInitializer(com.google.api.client.http.HttpRequestInitializer)
+    1:1:public bridge synthetic com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient build()
+    1:1:public bridge synthetic com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder setSuppressAllChecks(boolean)
+    1:1:public bridge synthetic com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder setSuppressRequiredParameterChecks(boolean)
+    1:1:public bridge synthetic com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder setSuppressPatternChecks(boolean)
+com.chanel.messageEndpoint.MessageEndpoint$ListMessages:
+    private static final java.lang.String REST_PATH
+    155:155:public com.google.api.client.http.HttpResponse executeUsingHead()
+    160:160:public com.google.api.client.http.HttpRequest buildHttpRequestUsingHead()
+    165:165:public com.chanel.messageEndpoint.MessageEndpoint$ListMessages setAlt(java.lang.String)
+    170:170:public com.chanel.messageEndpoint.MessageEndpoint$ListMessages setFields(java.lang.String)
+    175:175:public com.chanel.messageEndpoint.MessageEndpoint$ListMessages setKey(java.lang.String)
+    180:180:public com.chanel.messageEndpoint.MessageEndpoint$ListMessages setOauthToken(java.lang.String)
+    185:185:public com.chanel.messageEndpoint.MessageEndpoint$ListMessages setPrettyPrint(java.lang.Boolean)
+    190:190:public com.chanel.messageEndpoint.MessageEndpoint$ListMessages setQuotaUser(java.lang.String)
+    195:195:public com.chanel.messageEndpoint.MessageEndpoint$ListMessages setUserIp(java.lang.String)
+    205:205:public java.lang.String getCursor()
+    209:210:public com.chanel.messageEndpoint.MessageEndpoint$ListMessages setCursor(java.lang.String)
+    220:220:public java.lang.Integer getLimit()
+    1:1:public bridge synthetic com.chanel.messageEndpoint.MessageEndpointRequest setAlt(java.lang.String)
+    1:1:public bridge synthetic com.chanel.messageEndpoint.MessageEndpointRequest setPrettyPrint(java.lang.Boolean)
+    1:1:public bridge synthetic com.chanel.messageEndpoint.MessageEndpointRequest setUserIp(java.lang.String)
+    1:1:public bridge synthetic com.chanel.messageEndpoint.MessageEndpointRequest setKey(java.lang.String)
+    1:1:public bridge synthetic com.chanel.messageEndpoint.MessageEndpointRequest setFields(java.lang.String)
+    1:1:public bridge synthetic com.chanel.messageEndpoint.MessageEndpointRequest setQuotaUser(java.lang.String)
+    1:1:public bridge synthetic com.chanel.messageEndpoint.MessageEndpointRequest setOauthToken(java.lang.String)
+com.chanel.messageEndpoint.MessageEndpoint$SendMessage
+com.chanel.messageEndpoint.MessageEndpointRequest:
+    57:57:public java.lang.String getAlt()
+    62:63:public com.chanel.messageEndpoint.MessageEndpointRequest setAlt(java.lang.String)
+    74:74:public java.lang.String getFields()
+    79:80:public com.chanel.messageEndpoint.MessageEndpointRequest setFields(java.lang.String)
+    95:95:public java.lang.String getKey()
+    103:104:public com.chanel.messageEndpoint.MessageEndpointRequest setKey(java.lang.String)
+    115:115:public java.lang.String getOauthToken()
+    120:121:public com.chanel.messageEndpoint.MessageEndpointRequest setOauthToken(java.lang.String)
+    132:132:public java.lang.Boolean getPrettyPrint()
+    137:138:public com.chanel.messageEndpoint.MessageEndpointRequest setPrettyPrint(java.lang.Boolean)
+    153:153:public java.lang.String getQuotaUser()
+    161:162:public com.chanel.messageEndpoint.MessageEndpointRequest setQuotaUser(java.lang.String)
+    177:177:public java.lang.String getUserIp()
+    185:186:public com.chanel.messageEndpoint.MessageEndpointRequest setUserIp(java.lang.String)
+    201:201:public com.chanel.messageEndpoint.MessageEndpointRequest setRequestHeaders(com.google.api.client.http.HttpHeaders)
+    1:1:public bridge synthetic com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest setRequestHeaders(com.google.api.client.http.HttpHeaders)
+com.chanel.messageEndpoint.MessageEndpointRequestInitializer
+com.chanel.messageEndpoint.MessageEndpointScopes
+com.chanel.messageEndpoint.model.CollectionResponseMessageData:
+    63:64:public com.chanel.messageEndpoint.model.CollectionResponseMessageData setItems(java.util.List)
+    71:71:public java.lang.String getNextPageToken()
+    78:79:public com.chanel.messageEndpoint.model.CollectionResponseMessageData setNextPageToken(java.lang.String)
+com.chanel.messageEndpoint.model.Key:
+    80:80:public java.lang.String getAppId()
+    87:88:public com.chanel.messageEndpoint.model.Key setAppId(java.lang.String)
+    95:95:public java.lang.Boolean getComplete()
+    102:103:public com.chanel.messageEndpoint.model.Key setComplete(java.lang.Boolean)
+    110:110:public java.lang.Long getId()
+    117:118:public com.chanel.messageEndpoint.model.Key setId(java.lang.Long)
+    125:125:public java.lang.String getKind()
+    132:133:public com.chanel.messageEndpoint.model.Key setKind(java.lang.String)
+    140:140:public java.lang.String getName()
+    147:148:public com.chanel.messageEndpoint.model.Key setName(java.lang.String)
+    155:155:public java.lang.String getNamespace()
+    162:163:public com.chanel.messageEndpoint.model.Key setNamespace(java.lang.String)
+    170:170:public com.chanel.messageEndpoint.model.Key getParent()
+    177:178:public com.chanel.messageEndpoint.model.Key setParent(com.chanel.messageEndpoint.model.Key)
+com.chanel.messageEndpoint.model.MessageData:
+    56:56:public com.chanel.messageEndpoint.model.Key getKey()
+    63:64:public com.chanel.messageEndpoint.model.MessageData setKey(com.chanel.messageEndpoint.model.Key)
+    78:79:public com.chanel.messageEndpoint.model.MessageData setMessage(java.lang.String)
+    86:86:public java.lang.Long getTimestamp()
+    93:94:public com.chanel.messageEndpoint.model.MessageData setTimestamp(java.lang.Long)
+com.fasterxml.jackson.core.Base64Variant
+com.fasterxml.jackson.core.Base64Variants
+com.fasterxml.jackson.core.FormatSchema
+com.fasterxml.jackson.core.JsonFactory:
+    private static final long serialVersionUID
+    public static final java.lang.String FORMAT_NAME_JSON
+    273:274:public com.fasterxml.jackson.core.JsonFactory copy()
+    283:287:protected void _checkInvalidCopy(java.lang.Class)
+    301:301:protected java.lang.Object readResolve()
+    321:322:public boolean canUseSchema(com.fasterxml.jackson.core.FormatSchema)
+    338:341:public java.lang.String getFormatName()
+    347:350:public com.fasterxml.jackson.core.format.MatchStrength hasFormat(com.fasterxml.jackson.core.format.InputAccessor)
+    367:367:public boolean requiresCustomCodec()
+    376:376:protected com.fasterxml.jackson.core.format.MatchStrength hasJSONFormat(com.fasterxml.jackson.core.format.InputAccessor)
+    387:387:public com.fasterxml.jackson.core.Version version()
+    401:401:public final com.fasterxml.jackson.core.JsonFactory configure(com.fasterxml.jackson.core.JsonFactory$Feature,boolean)
+    409:410:public com.fasterxml.jackson.core.JsonFactory enable(com.fasterxml.jackson.core.JsonFactory$Feature)
+    418:419:public com.fasterxml.jackson.core.JsonFactory disable(com.fasterxml.jackson.core.JsonFactory$Feature)
+    440:440:public final com.fasterxml.jackson.core.JsonFactory configure(com.fasterxml.jackson.core.JsonParser$Feature,boolean)
+    448:449:public com.fasterxml.jackson.core.JsonFactory enable(com.fasterxml.jackson.core.JsonParser$Feature)
+    457:458:public com.fasterxml.jackson.core.JsonFactory disable(com.fasterxml.jackson.core.JsonParser$Feature)
+    465:465:public final boolean isEnabled(com.fasterxml.jackson.core.JsonParser$Feature)
+    473:473:public com.fasterxml.jackson.core.io.InputDecorator getInputDecorator()
+    480:481:public com.fasterxml.jackson.core.JsonFactory setInputDecorator(com.fasterxml.jackson.core.io.InputDecorator)
+    521:521:public final boolean isEnabled(com.fasterxml.jackson.core.JsonGenerator$Feature)
+    529:529:public com.fasterxml.jackson.core.io.CharacterEscapes getCharacterEscapes()
+    537:538:public com.fasterxml.jackson.core.JsonFactory setCharacterEscapes(com.fasterxml.jackson.core.io.CharacterEscapes)
+    546:546:public com.fasterxml.jackson.core.io.OutputDecorator getOutputDecorator()
+    553:554:public com.fasterxml.jackson.core.JsonFactory setOutputDecorator(com.fasterxml.jackson.core.io.OutputDecorator)
+    567:568:public com.fasterxml.jackson.core.JsonFactory setRootValueSeparator(java.lang.String)
+    575:575:public java.lang.String getRootValueSeparator()
+    592:593:public com.fasterxml.jackson.core.JsonFactory setCodec(com.fasterxml.jackson.core.ObjectCodec)
+    596:596:public com.fasterxml.jackson.core.ObjectCodec getCodec()
+    623:623:public com.fasterxml.jackson.core.JsonParser createParser(java.io.File)
+    646:646:public com.fasterxml.jackson.core.JsonParser createParser(java.net.URL)
+    671:671:public com.fasterxml.jackson.core.JsonParser createParser(java.io.InputStream)
+    693:693:public com.fasterxml.jackson.core.JsonParser createParser(java.io.Reader)
+    707:707:public com.fasterxml.jackson.core.JsonParser createParser(byte[])
+    725:725:public com.fasterxml.jackson.core.JsonParser createParser(byte[],int,int)
+    739:739:public com.fasterxml.jackson.core.JsonParser createParser(java.lang.String)
+    767:773:public com.fasterxml.jackson.core.JsonParser createJsonParser(java.io.File)
+    796:802:public com.fasterxml.jackson.core.JsonParser createJsonParser(java.net.URL)
+    853:858:public com.fasterxml.jackson.core.JsonParser createJsonParser(java.io.Reader)
+    871:879:public com.fasterxml.jackson.core.JsonParser createJsonParser(byte[])
+    896:904:public com.fasterxml.jackson.core.JsonParser createJsonParser(byte[],int,int)
+    961:961:public com.fasterxml.jackson.core.JsonGenerator createGenerator(java.io.OutputStream,com.fasterxml.jackson.core.JsonEncoding)
+    985:985:public com.fasterxml.jackson.core.JsonGenerator createGenerator(java.io.Writer)
+    1000:1000:public com.fasterxml.jackson.core.JsonGenerator createGenerator(java.io.OutputStream)
+    1025:1025:public com.fasterxml.jackson.core.JsonGenerator createGenerator(java.io.File,com.fasterxml.jackson.core.JsonEncoding)
+    1097:1102:public com.fasterxml.jackson.core.JsonGenerator createJsonGenerator(java.io.Writer)
+    1115:1115:public com.fasterxml.jackson.core.JsonGenerator createJsonGenerator(java.io.OutputStream)
+    1138:1154:public com.fasterxml.jackson.core.JsonGenerator createJsonGenerator(java.io.File,com.fasterxml.jackson.core.JsonEncoding)
+    1245:1245:protected com.fasterxml.jackson.core.JsonParser _createParser(byte[],int,int,com.fasterxml.jackson.core.io.IOContext)
+    1253:1253:protected com.fasterxml.jackson.core.JsonParser _createJsonParser(byte[],int,int,com.fasterxml.jackson.core.io.IOContext)
+    1315:1315:protected com.fasterxml.jackson.core.JsonGenerator _createUTF8Generator(java.io.OutputStream,com.fasterxml.jackson.core.io.IOContext)
+    1388:1407:protected java.io.InputStream _optimizedStreamFromURL(java.net.URL)
+com.fasterxml.jackson.core.JsonFactory$Feature:
+    148:148:public boolean enabledIn(int)
+com.fasterxml.jackson.core.JsonGenerationException:
+    private static final long serialVersionUID
+    15:16:public JsonGenerationException(java.lang.Throwable)
+    25:26:public JsonGenerationException(java.lang.String,java.lang.Throwable)
+com.fasterxml.jackson.core.JsonGenerator:
+    199:199:public void setSchema(com.fasterxml.jackson.core.FormatSchema)
+    210:210:public com.fasterxml.jackson.core.FormatSchema getSchema()
+    222:222:public boolean canUseSchema(com.fasterxml.jackson.core.FormatSchema)
+    public abstract com.fasterxml.jackson.core.Version version()
+    247:247:public java.lang.Object getOutputTarget()
+    public abstract com.fasterxml.jackson.core.JsonGenerator enable(com.fasterxml.jackson.core.JsonGenerator$Feature)
+    public abstract com.fasterxml.jackson.core.JsonGenerator disable(com.fasterxml.jackson.core.JsonGenerator$Feature)
+    293:298:public final com.fasterxml.jackson.core.JsonGenerator configure(com.fasterxml.jackson.core.JsonGenerator$Feature,boolean)
+    public abstract boolean isEnabled(com.fasterxml.jackson.core.JsonGenerator$Feature)
+    public abstract com.fasterxml.jackson.core.JsonGenerator setCodec(com.fasterxml.jackson.core.ObjectCodec)
+    public abstract com.fasterxml.jackson.core.ObjectCodec getCodec()
+    402:402:public int getHighestEscapedChar()
+    409:409:public com.fasterxml.jackson.core.io.CharacterEscapes getCharacterEscapes()
+    public abstract void writeFieldName(com.fasterxml.jackson.core.SerializableString)
+    public abstract void writeString(char[],int,int)
+    public abstract void writeString(com.fasterxml.jackson.core.SerializableString)
+    public abstract void writeRawUTF8String(byte[],int,int)
+    public abstract void writeUTF8String(byte[],int,int)
+    public abstract void writeRaw(java.lang.String,int,int)
+    public abstract void writeRawValue(java.lang.String)
+    public abstract void writeRawValue(java.lang.String,int,int)
+    public abstract void writeRawValue(char[],int,int)
+    public abstract void writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int)
+    717:718:public void writeBinary(byte[],int,int)
+    729:730:public void writeBinary(byte[])
+    747:747:public int writeBinary(java.io.InputStream,int)
+    public abstract int writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int)
+    public abstract void writeNumber(java.lang.String)
+    public abstract void writeObject(java.lang.Object)
+    public abstract void writeTree(com.fasterxml.jackson.core.TreeNode)
+    932:934:public void writeStringField(java.lang.String,java.lang.String)
+    947:949:public final void writeBooleanField(java.lang.String,boolean)
+    962:964:public final void writeNullField(java.lang.String)
+    976:978:public final void writeNumberField(java.lang.String,int)
+    991:993:public final void writeNumberField(java.lang.String,long)
+    1006:1008:public final void writeNumberField(java.lang.String,double)
+    1021:1023:public final void writeNumberField(java.lang.String,float)
+    1037:1039:public final void writeNumberField(java.lang.String,java.math.BigDecimal)
+    1053:1055:public final void writeBinaryField(java.lang.String,byte[])
+    1073:1075:public final void writeArrayFieldStart(java.lang.String)
+    1093:1095:public final void writeObjectFieldStart(java.lang.String)
+    1109:1111:public final void writeObjectField(java.lang.String,java.lang.Object)
+    public abstract void copyCurrentEvent(com.fasterxml.jackson.core.JsonParser)
+    public abstract void copyCurrentStructure(com.fasterxml.jackson.core.JsonParser)
+    public abstract com.fasterxml.jackson.core.JsonStreamContext getOutputContext()
+    public abstract boolean isClosed()
+    public abstract void close()
+com.fasterxml.jackson.core.JsonLocation:
+    private static final long serialVersionUID
+    58:58:public java.lang.Object getSourceRef()
+    63:63:public int getLineNr()
+    68:68:public int getColumnNr()
+    74:74:public long getCharOffset()
+com.fasterxml.jackson.core.JsonParseException:
+    static final long serialVersionUID
+com.fasterxml.jackson.core.JsonParser:
+    private static final int MIN_BYTE_I
+    private static final int MAX_BYTE_I
+    private static final int MIN_SHORT_I
+    private static final int MAX_SHORT_I
+    218:220:protected JsonParser(int)
+    public abstract com.fasterxml.jackson.core.ObjectCodec getCodec()
+    public abstract void setCodec(com.fasterxml.jackson.core.ObjectCodec)
+    252:252:public java.lang.Object getInputSource()
+    277:277:public void setSchema(com.fasterxml.jackson.core.FormatSchema)
+    288:288:public com.fasterxml.jackson.core.FormatSchema getSchema()
+    300:300:public boolean canUseSchema(com.fasterxml.jackson.core.FormatSchema)
+    317:317:public boolean requiresCustomCodec()
+    public abstract com.fasterxml.jackson.core.Version version()
+    379:379:public int releaseBuffered(java.io.OutputStream)
+    399:399:public int releaseBuffered(java.io.Writer)
+    414:415:public com.fasterxml.jackson.core.JsonParser enable(com.fasterxml.jackson.core.JsonParser$Feature)
+    424:425:public com.fasterxml.jackson.core.JsonParser disable(com.fasterxml.jackson.core.JsonParser$Feature)
+    434:439:public com.fasterxml.jackson.core.JsonParser configure(com.fasterxml.jackson.core.JsonParser$Feature,boolean)
+    public abstract com.fasterxml.jackson.core.JsonToken nextValue()
+    503:503:public boolean nextFieldName(com.fasterxml.jackson.core.SerializableString)
+    520:520:public java.lang.String nextTextValue()
+    537:537:public int nextIntValue(int)
+    554:554:public long nextLongValue(long)
+    574:580:public java.lang.Boolean nextBooleanValue()
+    public abstract boolean isClosed()
+    public abstract boolean hasCurrentToken()
+    public abstract com.fasterxml.jackson.core.JsonStreamContext getParsingContext()
+    public abstract com.fasterxml.jackson.core.JsonLocation getTokenLocation()
+    695:695:public boolean isExpectedStartArrayToken()
+    public abstract void clearCurrentToken()
+    public abstract com.fasterxml.jackson.core.JsonToken getLastClearedToken()
+    public abstract void overrideCurrentName(java.lang.String)
+    public abstract char[] getTextCharacters()
+    public abstract int getTextLength()
+    public abstract int getTextOffset()
+    public abstract boolean hasTextCharacters()
+    public abstract java.lang.Number getNumberValue()
+    public abstract com.fasterxml.jackson.core.JsonParser$NumberType getNumberType()
+    1003:1006:public boolean getBooleanValue()
+    public abstract java.lang.Object getEmbeddedObject()
+    public abstract byte[] getBinaryValue(com.fasterxml.jackson.core.Base64Variant)
+    1057:1057:public byte[] getBinaryValue()
+    1075:1075:public int readBinaryValue(java.io.OutputStream)
+    1092:1093:public int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)
+    1114:1114:public int getValueAsInt()
+    1129:1129:public int getValueAsInt(int)
+    1144:1144:public long getValueAsLong()
+    1159:1159:public long getValueAsLong(long)
+    1174:1174:public double getValueAsDouble()
+    1189:1189:public double getValueAsDouble(double)
+    1204:1204:public boolean getValueAsBoolean()
+    1219:1219:public boolean getValueAsBoolean(boolean)
+    1234:1234:public java.lang.String getValueAsString()
+    public abstract java.lang.String getValueAsString(java.lang.String)
+    1281:1285:public java.lang.Object readValueAs(java.lang.Class)
+    1310:1317:public java.lang.Object readValueAs(com.fasterxml.jackson.core.type.TypeReference)
+    1327:1331:public java.util.Iterator readValuesAs(java.lang.Class)
+    1341:1345:public java.util.Iterator readValuesAs(com.fasterxml.jackson.core.type.TypeReference)
+    1359:1363:public com.fasterxml.jackson.core.TreeNode readValueAsTree()
+    1388:1388:protected void _reportUnsupportedOperation()
+com.fasterxml.jackson.core.JsonParser$1
+com.fasterxml.jackson.core.JsonParser$NumberType
+com.fasterxml.jackson.core.JsonProcessingException:
+    static final long serialVersionUID
+    31:32:protected JsonProcessingException(java.lang.String)
+    41:42:protected JsonProcessingException(java.lang.String,java.lang.Throwable)
+    46:47:protected JsonProcessingException(java.lang.Throwable)
+    68:68:public java.lang.String getOriginalMessage()
+com.fasterxml.jackson.core.JsonStreamContext:
+    protected static final int TYPE_ROOT
+    protected static final int TYPE_ARRAY
+    protected static final int TYPE_OBJECT
+    public abstract com.fasterxml.jackson.core.JsonStreamContext getParent()
+    public abstract java.lang.String getCurrentName()
+com.fasterxml.jackson.core.JsonToken:
+    141:141:public char[] asCharArray()
+    142:142:public byte[] asByteArray()
+    145:145:public boolean isNumeric()
+    155:155:public boolean isScalarValue()
+com.fasterxml.jackson.core.ObjectCodec:
+    20:20:protected ObjectCodec()
+    public abstract java.lang.Object readValue(com.fasterxml.jackson.core.JsonParser,java.lang.Class)
+    public abstract java.lang.Object readValue(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.TypeReference)
+    public abstract java.lang.Object readValue(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.ResolvedType)
+    public abstract com.fasterxml.jackson.core.TreeNode readTree(com.fasterxml.jackson.core.JsonParser)
+    public abstract java.util.Iterator readValues(com.fasterxml.jackson.core.JsonParser,java.lang.Class)
+    public abstract java.util.Iterator readValues(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.TypeReference)
+    public abstract java.util.Iterator readValues(com.fasterxml.jackson.core.JsonParser,com.fasterxml.jackson.core.type.ResolvedType)
+    public abstract void writeValue(com.fasterxml.jackson.core.JsonGenerator,java.lang.Object)
+    public abstract com.fasterxml.jackson.core.TreeNode createObjectNode()
+    public abstract com.fasterxml.jackson.core.TreeNode createArrayNode()
+    public abstract com.fasterxml.jackson.core.JsonParser treeAsTokens(com.fasterxml.jackson.core.TreeNode)
+    public abstract java.lang.Object treeToValue(com.fasterxml.jackson.core.TreeNode,java.lang.Class)
+    public abstract com.fasterxml.jackson.core.JsonFactory getJsonFactory()
+    156:156:public com.fasterxml.jackson.core.JsonFactory getFactory()
+com.fasterxml.jackson.core.SerializableString:
+    public abstract int charLength()
+    public abstract char[] asQuotedChars()
+    public abstract byte[] asQuotedUTF8()
+    public abstract int appendQuotedUTF8(byte[],int)
+    public abstract int appendQuoted(char[],int)
+    public abstract int appendUnquotedUTF8(byte[],int)
+    public abstract int appendUnquoted(char[],int)
+    public abstract int writeQuotedUTF8(java.io.OutputStream)
+    public abstract int writeUnquotedUTF8(java.io.OutputStream)
+    public abstract int putQuotedUTF8(java.nio.ByteBuffer)
+    public abstract int putUnquotedUTF8(java.nio.ByteBuffer)
+com.fasterxml.jackson.core.TreeNode
+com.fasterxml.jackson.core.Version
+com.fasterxml.jackson.core.Versioned
+com.fasterxml.jackson.core.base.GeneratorBase:
+    84:84:public com.fasterxml.jackson.core.Version version()
+    95:101:public com.fasterxml.jackson.core.JsonGenerator enable(com.fasterxml.jackson.core.JsonGenerator$Feature)
+    106:112:public com.fasterxml.jackson.core.JsonGenerator disable(com.fasterxml.jackson.core.JsonGenerator$Feature)
+    135:136:public com.fasterxml.jackson.core.JsonGenerator setCodec(com.fasterxml.jackson.core.ObjectCodec)
+    140:140:public final com.fasterxml.jackson.core.ObjectCodec getCodec()
+    173:174:public void writeFieldName(com.fasterxml.jackson.core.SerializableString)
+    186:187:public void writeString(com.fasterxml.jackson.core.SerializableString)
+    192:194:public void writeRawValue(java.lang.String)
+    200:202:public void writeRawValue(java.lang.String,int,int)
+    208:210:public void writeRawValue(char[],int,int)
+    216:217:public int writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int)
+    248:263:public void writeObject(java.lang.Object)
+    270:278:public void writeTree(com.fasterxml.jackson.core.TreeNode)
+    public abstract void flush()
+    296:296:public boolean isClosed()
+    308:375:public final void copyCurrentEvent(com.fasterxml.jackson.core.JsonParser)
+    381:408:public final void copyCurrentStructure(com.fasterxml.jackson.core.JsonParser)
+    protected abstract void _releaseBuffers()
+    protected abstract void _verifyValueWrite(java.lang.String)
+    446:500:protected void _writeSimpleObject(java.lang.Object)
+    505:505:protected final void _throwInternal()
+    509:509:protected void _reportUnsupportedOperation()
+    20:20:public bridge synthetic com.fasterxml.jackson.core.JsonStreamContext getOutputContext()
+com.fasterxml.jackson.core.base.GeneratorBase$1
+com.fasterxml.jackson.core.base.ParserBase:
+    protected static final int NR_UNKNOWN
+    protected static final int NR_INT
+    protected static final int NR_LONG
+    protected static final int NR_BIGINT
+    protected static final int NR_DOUBLE
+    protected static final int NR_BIGDECIMAL
+    static final long MIN_INT_L
+    static final long MAX_INT_L
+    static final double MIN_LONG_D
+    static final double MAX_LONG_D
+    static final double MIN_INT_D
+    static final double MAX_INT_D
+    protected static final int INT_0
+    protected static final int INT_1
+    protected static final int INT_2
+    protected static final int INT_3
+    protected static final int INT_4
+    protected static final int INT_5
+    protected static final int INT_6
+    protected static final int INT_7
+    protected static final int INT_8
+    protected static final int INT_9
+    protected static final int INT_MINUS
+    protected static final int INT_PLUS
+    protected static final int INT_DECIMAL_POINT
+    protected static final int INT_e
+    protected static final int INT_E
+    protected static final char CHAR_NULL
+    332:337:public void overrideCurrentName(java.lang.String)
+    355:355:public boolean isClosed()
+    360:360:public com.fasterxml.jackson.core.json.JsonReadContext getParsingContext()
+    371:371:public com.fasterxml.jackson.core.JsonLocation getTokenLocation()
+    399:405:public boolean hasTextCharacters()
+    414:414:public long getTokenCharacterOffset()
+    415:415:public int getTokenLineNr()
+    418:419:public int getTokenColumnNr()
+    protected abstract void _finishString()
+    504:509:public com.fasterxml.jackson.core.util.ByteArrayBuilder _getByteArrayBuilder()
+    565:592:public java.lang.Number getNumberValue()
+    598:620:public com.fasterxml.jackson.core.JsonParser$NumberType getNumberType()
+    1016:1031:protected final int _decodeBase64Escape(com.fasterxml.jackson.core.Base64Variant,int,int)
+    1038:1053:protected final int _decodeBase64Escape(com.fasterxml.jackson.core.Base64Variant,char,int)
+    1059:1059:protected java.lang.IllegalArgumentException reportInvalidBase64Char(com.fasterxml.jackson.core.Base64Variant,int,int)
+    1070:1083:protected java.lang.IllegalArgumentException reportInvalidBase64Char(com.fasterxml.jackson.core.Base64Variant,int,int,java.lang.String)
+    21:21:public bridge synthetic com.fasterxml.jackson.core.JsonStreamContext getParsingContext()
+com.fasterxml.jackson.core.base.ParserMinimalBase:
+    protected static final int INT_TAB
+    protected static final int INT_LF
+    protected static final int INT_CR
+    protected static final int INT_SPACE
+    protected static final int INT_LBRACKET
+    protected static final int INT_RBRACKET
+    protected static final int INT_LCURLY
+    protected static final int INT_RCURLY
+    protected static final int INT_QUOTE
+    protected static final int INT_BACKSLASH
+    protected static final int INT_SLASH
+    protected static final int INT_COLON
+    protected static final int INT_COMMA
+    protected static final int INT_ASTERISK
+    protected static final int INT_APOSTROPHE
+    protected static final int INT_b
+    protected static final int INT_f
+    protected static final int INT_n
+    protected static final int INT_r
+    protected static final int INT_t
+    protected static final int INT_u
+    protected com.fasterxml.jackson.core.JsonToken _lastClearedToken
+    80:81:protected ParserMinimalBase(int)
+    85:85:public com.fasterxml.jackson.core.Version version()
+    117:117:public boolean hasCurrentToken()
+    128:132:public com.fasterxml.jackson.core.JsonToken nextValue()
+    public abstract java.lang.String getCurrentName()
+    public abstract void close()
+    public abstract boolean isClosed()
+    public abstract com.fasterxml.jackson.core.JsonStreamContext getParsingContext()
+    205:209:public void clearCurrentToken()
+    213:213:public com.fasterxml.jackson.core.JsonToken getLastClearedToken()
+    public abstract void overrideCurrentName(java.lang.String)
+    public abstract char[] getTextCharacters()
+    public abstract boolean hasTextCharacters()
+    public abstract int getTextLength()
+    public abstract int getTextOffset()
+    public abstract byte[] getBinaryValue(com.fasterxml.jackson.core.Base64Variant)
+    259:283:public boolean getValueAsBoolean(boolean)
+    289:310:public int getValueAsInt(int)
+    316:337:public long getValueAsLong(long)
+    343:364:public double getValueAsDouble(double)
+    370:375:public java.lang.String getValueAsString(java.lang.String)
+    391:476:protected void _decodeBase64(java.lang.String,com.fasterxml.jackson.core.util.ByteArrayBuilder,com.fasterxml.jackson.core.Base64Variant)
+    486:499:protected void _reportInvalidBase64(com.fasterxml.jackson.core.Base64Variant,char,int,java.lang.String)
+    503:503:protected void _reportBase64EOF()
+com.fasterxml.jackson.core.format.DataFormatDetector
+com.fasterxml.jackson.core.format.DataFormatMatcher
+com.fasterxml.jackson.core.format.InputAccessor
+com.fasterxml.jackson.core.format.InputAccessor$Std
+com.fasterxml.jackson.core.format.MatchStrength
+com.fasterxml.jackson.core.io.BaseReader:
+    protected static final int LAST_VALID_UNICODE_CHAR
+    protected static final char NULL_CHAR
+    protected static final char NULL_BYTE
+com.fasterxml.jackson.core.io.CharTypes:
+    6:6:public CharTypes()
+com.fasterxml.jackson.core.io.CharacterEscapes:
+    private static final long serialVersionUID
+    public static final int ESCAPE_NONE
+    public static final int ESCAPE_STANDARD
+    public static final int ESCAPE_CUSTOM
+    10:10:public CharacterEscapes()
+    67:71:public static int[] standardAsciiEscapesForJSON()
+com.fasterxml.jackson.core.io.IOContext:
+    159:163:public byte[] allocBase64Buffer()
+    186:190:public char[] allocNameCopyBuffer(int)
+    227:234:public void releaseBase64Buffer(byte[])
+com.fasterxml.jackson.core.io.InputDecorator:
+    private static final long serialVersionUID
+    11:11:public InputDecorator()
+    public abstract java.io.InputStream decorate(com.fasterxml.jackson.core.io.IOContext,byte[],int,int)
+com.fasterxml.jackson.core.io.JsonStringEncoder:
+    private static final int SURR1_FIRST
+    private static final int SURR1_LAST
+    private static final int SURR2_FIRST
+    private static final int SURR2_LAST
+    private static final int INT_BACKSLASH
+    private static final int INT_U
+    private static final int INT_0
+    protected com.fasterxml.jackson.core.util.TextBuffer _textBuffer
+    99:150:public char[] quoteAsString(java.lang.String)
+    159:245:public byte[] quoteAsUTF8(java.lang.String)
+    346:350:private int _appendNumericEscape(int,char[])
+    355:356:private int _appendNamedEscape(int,char[])
+    361:379:private int _appendByteEscape(int,int,com.fasterxml.jackson.core.util.ByteArrayBuilder,int)
+com.fasterxml.jackson.core.io.NumberInput:
+    public static final java.lang.String NASTY_SMALL_DOUBLE
+    static final long L_BILLION
+    3:3:public NumberInput()
+    68:112:public static int parseInt(java.lang.String)
+    128:133:public static long parseLong(java.lang.String)
+    171:184:public static boolean inLongRange(java.lang.String,boolean)
+    189:222:public static int parseAsInt(java.lang.String,int)
+    227:260:public static long parseAsLong(java.lang.String,long)
+    265:276:public static double parseAsDouble(java.lang.String,double)
+com.fasterxml.jackson.core.io.NumberOutput:
+    private static final char NULL_CHAR
+    3:3:public NumberOutput()
+    296:305:public static java.lang.String toString(int)
+    310:314:public static java.lang.String toString(long)
+    319:319:public static java.lang.String toString(double)
+com.fasterxml.jackson.core.io.OutputDecorator:
+    private static final long serialVersionUID
+    11:11:public OutputDecorator()
+com.fasterxml.jackson.core.io.SegmentedStringWriter
+com.fasterxml.jackson.core.io.SerializedString:
+    protected byte[] _quotedUTF8Ref
+    protected char[] _quotedChars
+    protected transient java.lang.String _jdkSerializeValue
+    60:61:private void readObject(java.io.ObjectInputStream)
+    64:65:private void writeObject(java.io.ObjectOutputStream)
+    68:68:protected java.lang.Object readResolve()
+    84:84:public final int charLength()
+    89:94:public final char[] asQuotedChars()
+    119:124:public final byte[] asQuotedUTF8()
+    136:146:public int appendQuotedUTF8(byte[],int)
+    152:162:public int appendQuoted(char[],int)
+    168:178:public int appendUnquotedUTF8(byte[],int)
+    184:190:public int appendUnquoted(char[],int)
+    196:203:public int writeQuotedUTF8(java.io.OutputStream)
+    209:216:public int writeUnquotedUTF8(java.io.OutputStream)
+    222:232:public int putQuotedUTF8(java.nio.ByteBuffer)
+    238:248:public int putUnquotedUTF8(java.nio.ByteBuffer)
+com.fasterxml.jackson.core.io.UTF8Writer:
+    static final int SURR1_FIRST
+    static final int SURR1_LAST
+    static final int SURR2_FIRST
+    static final int SURR2_LAST
+com.fasterxml.jackson.core.json.ByteSourceJsonBootstrapper:
+    static final byte UTF8_BOM_1
+    static final byte UTF8_BOM_2
+    static final byte UTF8_BOM_3
+    95:104:public ByteSourceJsonBootstrapper(com.fasterxml.jackson.core.io.IOContext,byte[],int,int)
+    258:339:public static com.fasterxml.jackson.core.format.MatchStrength hasJSONFormat(com.fasterxml.jackson.core.format.InputAccessor)
+    345:353:private static com.fasterxml.jackson.core.format.MatchStrength tryMatch(com.fasterxml.jackson.core.format.InputAccessor,java.lang.String,com.fasterxml.jackson.core.format.MatchStrength)
+    358:361:private static int skipSpace(com.fasterxml.jackson.core.format.InputAccessor)
+    367:376:private static int skipSpace(com.fasterxml.jackson.core.format.InputAccessor,byte)
+com.fasterxml.jackson.core.json.CoreVersion
+com.fasterxml.jackson.core.json.JsonGeneratorImpl:
+    116:116:public int getHighestEscapedChar()
+    137:137:public com.fasterxml.jackson.core.io.CharacterEscapes getCharacterEscapes()
+    154:154:public com.fasterxml.jackson.core.Version version()
+    169:171:public final void writeStringField(java.lang.String,java.lang.String)
+com.fasterxml.jackson.core.json.JsonReadContext:
+    65:65:public static com.fasterxml.jackson.core.json.JsonReadContext createRootContext(int,int)
+    11:11:public bridge synthetic com.fasterxml.jackson.core.JsonStreamContext getParent()
+com.fasterxml.jackson.core.json.JsonWriteContext:
+    public static final int STATUS_OK_AS_IS
+    public static final int STATUS_OK_AFTER_COMMA
+    public static final int STATUS_OK_AFTER_COLON
+    public static final int STATUS_OK_AFTER_SPACE
+    public static final int STATUS_EXPECT_VALUE
+    public static final int STATUS_EXPECT_NAME
+    94:94:public final java.lang.String getCurrentName()
+    10:10:public bridge synthetic com.fasterxml.jackson.core.JsonStreamContext getParent()
+com.fasterxml.jackson.core.json.ReaderBasedJsonParser:
+    83:83:public com.fasterxml.jackson.core.Version version()
+    94:94:public com.fasterxml.jackson.core.ObjectCodec getCodec()
+    99:100:public void setCodec(com.fasterxml.jackson.core.ObjectCodec)
+    105:112:public int releaseBuffered(java.io.Writer)
+    117:117:public java.lang.Object getInputSource()
+    223:230:public java.lang.String getValueAsString()
+    237:244:public java.lang.String getValueAsString(java.lang.String)
+    270:301:public char[] getTextCharacters()
+    308:327:public int getTextLength()
+    334:349:public int getTextOffset()
+    354:354:public java.lang.Object getEmbeddedObject()
+    361:385:public byte[] getBinaryValue(com.fasterxml.jackson.core.Base64Variant)
+    393:403:public int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)
+    411:532:protected int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])
+    715:735:public java.lang.String nextTextValue()
+    743:759:public int nextIntValue(int)
+    767:783:public long nextLongValue(long)
+    791:815:public java.lang.Boolean nextBooleanValue()
+    1860:1963:protected byte[] _decodeBase64(com.fasterxml.jackson.core.Base64Variant)
+com.fasterxml.jackson.core.json.UTF8JsonGenerator:
+    private static final byte BYTE_u
+    private static final byte BYTE_0
+    private static final byte BYTE_LBRACKET
+    private static final byte BYTE_RBRACKET
+    private static final byte BYTE_LCURLY
+    private static final byte BYTE_RCURLY
+    private static final byte BYTE_BACKSLASH
+    private static final byte BYTE_COMMA
+    private static final byte BYTE_COLON
+    private static final byte BYTE_QUOTE
+    protected static final int SURR1_FIRST
+    protected static final int SURR1_LAST
+    protected static final int SURR2_FIRST
+    protected static final int SURR2_LAST
+    private static final int MAX_BYTES_TO_BUFFER
+    protected byte[] _entityBuffer
+    133:143:public UTF8JsonGenerator(com.fasterxml.jackson.core.io.IOContext,int,com.fasterxml.jackson.core.ObjectCodec,java.io.OutputStream,byte[],int,boolean)
+    153:153:public java.lang.Object getOutputTarget()
+    187:202:public final void writeFieldName(com.fasterxml.jackson.core.SerializableString)
+    315:338:protected final void _writeFieldName(com.fasterxml.jackson.core.SerializableString)
+    385:405:protected final void _writePPFieldName(com.fasterxml.jackson.core.SerializableString,boolean)
+    481:500:public void writeString(char[],int,int)
+    506:521:public final void writeString(com.fasterxml.jackson.core.SerializableString)
+    527:537:public void writeRawUTF8String(byte[],int,int)
+    543:558:public void writeUTF8String(byte[],int,int)
+    587:596:public void writeRaw(java.lang.String,int,int)
+    720:732:public void writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int)
+    739:765:public int writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int)
+    890:896:public void writeNumber(java.lang.String)
+    1106:1116:private final void _writeBytes(byte[],int,int)
+    1441:1446:private void _writeUTF8Segments(byte[],int,int)
+    1452:1469:private void _writeUTF8Segment(byte[],int,int)
+    1474:1503:private void _writeUTF8Segment2(byte[],int,int)
+    1516:1551:protected void _writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int)
+    1558:1610:protected int _writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,byte[],int)
+    1618:1667:protected int _writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,byte[])
+    1675:1690:private int _readMore(java.io.InputStream,byte[],int,int,int)
+com.fasterxml.jackson.core.json.UTF8StreamJsonParser:
+    static final byte BYTE_LF
+    123:123:public com.fasterxml.jackson.core.ObjectCodec getCodec()
+    128:129:public void setCodec(com.fasterxml.jackson.core.ObjectCodec)
+    133:133:public com.fasterxml.jackson.core.Version version()
+    145:152:public int releaseBuffered(java.io.OutputStream)
+    157:157:public java.lang.Object getInputSource()
+    198:225:protected boolean _loadToHaveAtLeast(int)
+    288:295:public java.lang.String getValueAsString()
+    302:309:public java.lang.String getValueAsString(java.lang.String)
+    334:365:public char[] getTextCharacters()
+    372:391:public int getTextLength()
+    398:413:public int getTextOffset()
+    419:419:public java.lang.Object getEmbeddedObject()
+    426:450:public byte[] getBinaryValue(com.fasterxml.jackson.core.Base64Variant)
+    458:468:public int readBinaryValue(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream)
+    476:597:protected int _readBinary(com.fasterxml.jackson.core.Base64Variant,java.io.OutputStream,byte[])
+    825:906:public boolean nextFieldName(com.fasterxml.jackson.core.SerializableString)
+    914:979:private void _isNextTokenNameYes()
+    986:1048:private boolean _isNextTokenNameMaybe(int,com.fasterxml.jackson.core.SerializableString)
+    1056:1076:public java.lang.String nextTextValue()
+    1084:1100:public int nextIntValue(int)
+    1108:1124:public long nextLongValue(long)
+    1132:1156:public java.lang.Boolean nextBooleanValue()
+    2523:2589:private int _skipColon()
+    3049:3151:protected byte[] _decodeBase64(com.fasterxml.jackson.core.Base64Variant)
+com.fasterxml.jackson.core.json.WriterBasedJsonGenerator:
+    protected static final int SHORT_WRITE
+    88:88:public java.lang.Object getOutputTarget()
+    112:117:public void writeFieldName(com.fasterxml.jackson.core.SerializableString)
+    226:261:public void _writeFieldName(com.fasterxml.jackson.core.SerializableString,boolean)
+    294:314:protected void _writePPFieldName(com.fasterxml.jackson.core.SerializableString,boolean)
+    347:358:public void writeString(char[],int,int)
+    364:389:public void writeString(com.fasterxml.jackson.core.SerializableString)
+    396:397:public void writeRawUTF8String(byte[],int,int)
+    404:405:public void writeUTF8String(byte[],int,int)
+    439:452:public void writeRaw(java.lang.String,int,int)
+    525:537:public void writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int)
+    544:570:public int writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,int)
+    697:703:public void writeNumber(java.lang.String)
+    1052:1104:private void _writeString(char[],int,int)
+    1199:1248:private void _writeStringASCII(char[],int,int,int)
+    1356:1412:private void _writeStringCustom(char[],int,int)
+    1424:1459:protected void _writeBinary(com.fasterxml.jackson.core.Base64Variant,byte[],int,int)
+    1466:1518:protected int _writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,byte[],int)
+    1526:1575:protected int _writeBinary(com.fasterxml.jackson.core.Base64Variant,java.io.InputStream,byte[])
+    1583:1598:private int _readMore(java.io.InputStream,byte[],int,int,int)
+    1806:1854:private void _appendCharacterEscape(char,int)
+com.fasterxml.jackson.core.sym.BytesToNameCanonicalizer:
+    protected static final int DEFAULT_TABLE_SIZE
+    protected static final int MAX_TABLE_SIZE
+    static final int MAX_ENTRIES_FOR_REUSE
+    static final int MAX_COLL_CHAIN_LENGTH
+    static final int MAX_COLL_CHAIN_FOR_REUSE
+    static final int MIN_HASH_SIZE
+    static final int INITIAL_COLLISION_LEN
+    static final int LAST_VALID_BUCKET
+    private static final int MULT
+    private static final int MULT2
+    private static final int MULT3
+    406:410:public int size()
+    416:416:public int bucketCount()
+    430:430:public int hashSeed()
+    440:440:public int collisionCount()
+    451:451:public int maxCollisionLength()
+    617:623:public com.fasterxml.jackson.core.sym.Name addName(java.lang.String,int,int)
+    719:735:protected static int[] calcQuads(byte[])
+    1061:1064:private static com.fasterxml.jackson.core.sym.Name constructName(int,java.lang.String,int,int)
+com.fasterxml.jackson.core.sym.CharsToNameCanonicalizer:
+    public static final int HASH_MULT
+    protected static final int DEFAULT_TABLE_SIZE
+    protected static final int MAX_TABLE_SIZE
+    static final int MAX_ENTRIES_FOR_REUSE
+    static final int MAX_COLL_CHAIN_LENGTH
+    static final int MAX_COLL_CHAIN_FOR_REUSE
+    408:408:public int bucketCount()
+    423:430:public int collisionCount()
+    442:442:public int maxCollisionLength()
+com.fasterxml.jackson.core.type.ResolvedType
+com.fasterxml.jackson.core.type.TypeReference
+com.fasterxml.jackson.core.util.BufferRecycler:
+    public static final int DEFAULT_WRITE_CONCAT_BUFFER_LEN
+com.fasterxml.jackson.core.util.ByteArrayBuilder:
+    private static final int INITIAL_BLOCK_SIZE
+    private static final int MAX_BLOCK_SIZE
+    static final int DEFAULT_BLOCK_ARRAY_SIZE
+    73:73:public ByteArrayBuilder(int)
+    101:106:public void release()
+    118:125:public void appendTwoBytes(int)
+    129:138:public void appendThreeBytes(int)
+    213:213:public byte[] getCurrentSegment()
+    217:218:public void setCurrentSegmentLength(int)
+    221:221:public int getCurrentSegmentLength()
+com.fasterxml.jackson.core.util.DefaultPrettyPrinter:
+    private static final long serialVersionUID
+    107:108:public DefaultPrettyPrinter(java.lang.String)
+    123:124:public DefaultPrettyPrinter(com.fasterxml.jackson.core.util.DefaultPrettyPrinter)
+    128:135:public DefaultPrettyPrinter(com.fasterxml.jackson.core.util.DefaultPrettyPrinter,com.fasterxml.jackson.core.SerializableString)
+    139:143:public com.fasterxml.jackson.core.util.DefaultPrettyPrinter withRootSeparator(com.fasterxml.jackson.core.SerializableString)
+    148:149:public void indentArraysWith(com.fasterxml.jackson.core.util.DefaultPrettyPrinter$Indenter)
+    153:154:public void indentObjectsWith(com.fasterxml.jackson.core.util.DefaultPrettyPrinter$Indenter)
+    156:156:public void spacesInObjectEntries(boolean)
+    166:166:public com.fasterxml.jackson.core.util.DefaultPrettyPrinter createInstance()
+    16:16:public bridge synthetic java.lang.Object createInstance()
+com.fasterxml.jackson.core.util.DefaultPrettyPrinter$FixedSpaceIndenter:
+    private static final long serialVersionUID
+com.fasterxml.jackson.core.util.DefaultPrettyPrinter$Lf2SpacesIndenter:
+    private static final long serialVersionUID
+    static final int SPACE_COUNT
+com.fasterxml.jackson.core.util.DefaultPrettyPrinter$NopIndenter
+com.fasterxml.jackson.core.util.Instantiatable
+com.fasterxml.jackson.core.util.InternCache:
+    private static final int MAX_ENTRIES
+com.fasterxml.jackson.core.util.JsonGeneratorDelegate
+com.fasterxml.jackson.core.util.JsonParserDelegate
+com.fasterxml.jackson.core.util.JsonParserSequence
+com.fasterxml.jackson.core.util.MinimalPrettyPrinter
+com.fasterxml.jackson.core.util.TextBuffer:
+    static final int MIN_SEGMENT_LEN
+    static final int MAX_SEGMENT_LEN
+    293:300:public boolean hasTextAsCharacters()
+    421:424:public void ensureNotShared()
+    428:440:public void append(char)
+    483:515:public void append(java.lang.String,int,int)
+com.fasterxml.jackson.core.util.VersionUtil
+com.google.android.gcm.GCMBaseIntentService:
+    public static final java.lang.String TAG
+    private static final java.lang.String WAKELOCK_KEY
+    private static final java.lang.String EXTRA_TOKEN
+com.google.android.gcm.GCMBroadcastReceiver:
+    private static final java.lang.String TAG
+com.google.android.gcm.GCMConstants
+com.google.android.gcm.GCMRegistrar:
+    private static final java.lang.String TAG
+    private static final java.lang.String BACKOFF_MS
+    private static final java.lang.String GSF_PACKAGE
+    private static final java.lang.String PREFERENCES
+    private static final int DEFAULT_BACKOFF_MS
+    private static final java.lang.String PROPERTY_REG_ID
+    private static final java.lang.String PROPERTY_APP_VERSION
+    private static final java.lang.String PROPERTY_ON_SERVER
+    247:252:public static synchronized void onDestroy(android.content.Context)
+    344:349:public static void setRegisteredOnServer(android.content.Context,boolean)
+    355:358:public static boolean isRegisteredOnServer(android.content.Context)
+    418:419:private GCMRegistrar()
+com.google.api.client.auth.oauth.AbstractOAuthGetToken
+com.google.api.client.auth.oauth.OAuthAuthorizeTemporaryTokenUrl
+com.google.api.client.auth.oauth.OAuthCallbackUrl
+com.google.api.client.auth.oauth.OAuthCredentialsResponse
+com.google.api.client.auth.oauth.OAuthGetAccessToken
+com.google.api.client.auth.oauth.OAuthGetTemporaryToken
+com.google.api.client.auth.oauth.OAuthHmacSigner
+com.google.api.client.auth.oauth.OAuthParameters
+com.google.api.client.auth.oauth.OAuthRsaSigner
+com.google.api.client.auth.oauth.OAuthSigner
+com.google.api.client.auth.oauth.package-info
+com.google.api.client.auth.oauth2.AuthorizationCodeFlow
+com.google.api.client.auth.oauth2.AuthorizationCodeFlow$Builder
+com.google.api.client.auth.oauth2.AuthorizationCodeFlow$CredentialCreatedListener
+com.google.api.client.auth.oauth2.AuthorizationCodeRequestUrl
+com.google.api.client.auth.oauth2.AuthorizationCodeResponseUrl
+com.google.api.client.auth.oauth2.AuthorizationCodeTokenRequest
+com.google.api.client.auth.oauth2.AuthorizationRequestUrl
+com.google.api.client.auth.oauth2.BearerToken
+com.google.api.client.auth.oauth2.BearerToken$AuthorizationHeaderAccessMethod
+com.google.api.client.auth.oauth2.BearerToken$FormEncodedBodyAccessMethod
+com.google.api.client.auth.oauth2.BearerToken$QueryParameterAccessMethod
+com.google.api.client.auth.oauth2.BrowserClientRequestUrl
+com.google.api.client.auth.oauth2.ClientCredentialsTokenRequest
+com.google.api.client.auth.oauth2.ClientParametersAuthentication
+com.google.api.client.auth.oauth2.Credential
+com.google.api.client.auth.oauth2.Credential$AccessMethod
+com.google.api.client.auth.oauth2.Credential$Builder
+com.google.api.client.auth.oauth2.CredentialRefreshListener
+com.google.api.client.auth.oauth2.CredentialStore
+com.google.api.client.auth.oauth2.CredentialStoreRefreshListener
+com.google.api.client.auth.oauth2.DataStoreCredentialRefreshListener
+com.google.api.client.auth.oauth2.PasswordTokenRequest
+com.google.api.client.auth.oauth2.RefreshTokenRequest
+com.google.api.client.auth.oauth2.StoredCredential
+com.google.api.client.auth.oauth2.TokenErrorResponse
+com.google.api.client.auth.oauth2.TokenRequest
+com.google.api.client.auth.oauth2.TokenRequest$1
+com.google.api.client.auth.oauth2.TokenRequest$1$1
+com.google.api.client.auth.oauth2.TokenResponse
+com.google.api.client.auth.oauth2.TokenResponseException
+com.google.api.client.auth.openidconnect.IdToken
+com.google.api.client.auth.openidconnect.IdToken$Payload
+com.google.api.client.auth.openidconnect.IdTokenResponse
+com.google.api.client.auth.openidconnect.IdTokenVerifier
+com.google.api.client.auth.openidconnect.IdTokenVerifier$Builder
+com.google.api.client.auth.openidconnect.package-info
+com.google.api.client.extensions.android.AndroidUtils:
+    48:51:public static void checkMinimumSdkLevel(int)
+    53:54:private AndroidUtils()
+com.google.api.client.extensions.android.http.AndroidHttp:
+    57:58:private AndroidHttp()
+com.google.api.client.extensions.android.http.package-info
+com.google.api.client.extensions.android.json.AndroidJsonFactory
+com.google.api.client.extensions.android.json.AndroidJsonFactory$InstanceHolder
+com.google.api.client.extensions.android.json.AndroidJsonGenerator
+com.google.api.client.extensions.android.json.AndroidJsonGenerator$StringNumber
+com.google.api.client.extensions.android.json.AndroidJsonParser
+com.google.api.client.extensions.android.json.AndroidJsonParser$1
+com.google.api.client.extensions.android.json.package-info
+com.google.api.client.extensions.android.package-info
+com.google.api.client.extensions.jdo.JdoDataStoreFactory
+com.google.api.client.extensions.jdo.JdoDataStoreFactory$JdoDataStore
+com.google.api.client.extensions.jdo.JdoDataStoreFactory$JdoValue
+com.google.api.client.extensions.jdo.JdoDataStoreFactory$PrivateUtils
+com.google.api.client.extensions.jdo.JdoDataStoreFactory$PrivateUtils$ComposedIdKey
+com.google.api.client.extensions.jdo.package-info
+com.google.api.client.googleapis.GoogleUtils:
+    static java.security.KeyStore certTrustStore
+    73:78:public static synchronized java.security.KeyStore getCertificateTrustStore()
+    81:82:private GoogleUtils()
+com.google.api.client.googleapis.MethodOverride:
+    public static final java.lang.String HEADER
+    static final int MAX_URL_LENGTH
+com.google.api.client.googleapis.MethodOverride$Builder
+com.google.api.client.googleapis.apache.GoogleApacheHttpTransport
+com.google.api.client.googleapis.auth.clientlogin.AuthKeyValueParser
+com.google.api.client.googleapis.auth.clientlogin.ClientLogin
+com.google.api.client.googleapis.auth.clientlogin.ClientLogin$ErrorInfo
+com.google.api.client.googleapis.auth.clientlogin.ClientLogin$Response
+com.google.api.client.googleapis.auth.clientlogin.ClientLoginResponseException
+com.google.api.client.googleapis.auth.clientlogin.package-info
+com.google.api.client.googleapis.auth.oauth2.GoogleAuthorizationCodeFlow
+com.google.api.client.googleapis.auth.oauth2.GoogleAuthorizationCodeFlow$Builder
+com.google.api.client.googleapis.auth.oauth2.GoogleAuthorizationCodeRequestUrl
+com.google.api.client.googleapis.auth.oauth2.GoogleAuthorizationCodeTokenRequest
+com.google.api.client.googleapis.auth.oauth2.GoogleBrowserClientRequestUrl
+com.google.api.client.googleapis.auth.oauth2.GoogleClientSecrets
+com.google.api.client.googleapis.auth.oauth2.GoogleClientSecrets$Details
+com.google.api.client.googleapis.auth.oauth2.GoogleCredential
+com.google.api.client.googleapis.auth.oauth2.GoogleCredential$Builder
+com.google.api.client.googleapis.auth.oauth2.GoogleIdToken
+com.google.api.client.googleapis.auth.oauth2.GoogleIdToken$Payload
+com.google.api.client.googleapis.auth.oauth2.GoogleIdTokenVerifier
+com.google.api.client.googleapis.auth.oauth2.GoogleIdTokenVerifier$Builder
+com.google.api.client.googleapis.auth.oauth2.GoogleOAuthConstants
+com.google.api.client.googleapis.auth.oauth2.GooglePublicKeysManager
+com.google.api.client.googleapis.auth.oauth2.GooglePublicKeysManager$Builder
+com.google.api.client.googleapis.auth.oauth2.GoogleRefreshTokenRequest
+com.google.api.client.googleapis.auth.oauth2.GoogleTokenResponse
+com.google.api.client.googleapis.batch.BatchCallback
+com.google.api.client.googleapis.batch.BatchRequest
+com.google.api.client.googleapis.batch.BatchRequest$BatchInterceptor
+com.google.api.client.googleapis.batch.BatchRequest$RequestInfo
+com.google.api.client.googleapis.batch.BatchUnparsedResponse
+com.google.api.client.googleapis.batch.BatchUnparsedResponse$FakeLowLevelHttpRequest
+com.google.api.client.googleapis.batch.BatchUnparsedResponse$FakeLowLevelHttpResponse
+com.google.api.client.googleapis.batch.BatchUnparsedResponse$FakeResponseHttpTransport
+com.google.api.client.googleapis.batch.HttpRequestContent
+com.google.api.client.googleapis.batch.json.JsonBatchCallback
+com.google.api.client.googleapis.compute.ComputeCredential
+com.google.api.client.googleapis.compute.ComputeCredential$Builder
+com.google.api.client.googleapis.compute.package-info
+com.google.api.client.googleapis.extensions.android.accounts.GoogleAccountManager
+com.google.api.client.googleapis.extensions.android.accounts.package-info
+com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential
+com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential$RequestHandler
+com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAuthIOException
+com.google.api.client.googleapis.extensions.android.gms.auth.GooglePlayServicesAvailabilityIOException
+com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException
+com.google.api.client.googleapis.extensions.android.gms.auth.package-info
+com.google.api.client.googleapis.javanet.GoogleNetHttpTransport
+com.google.api.client.googleapis.json.GoogleJsonError:
+    50:52:public static com.google.api.client.googleapis.json.GoogleJsonError parse(com.google.api.client.json.JsonFactory,com.google.api.client.http.HttpResponse)
+    209:209:public final java.util.List getErrors()
+    218:219:public final void setErrors(java.util.List)
+    227:227:public final int getCode()
+    236:237:public final void setCode(int)
+    245:245:public final java.lang.String getMessage()
+    254:255:public final void setMessage(java.lang.String)
+com.google.api.client.googleapis.json.GoogleJsonError$ErrorInfo:
+    94:94:public final java.lang.String getDomain()
+    103:104:public final void setDomain(java.lang.String)
+    112:112:public final java.lang.String getReason()
+    121:122:public final void setReason(java.lang.String)
+    130:130:public final java.lang.String getMessage()
+    139:140:public final void setMessage(java.lang.String)
+    149:149:public final java.lang.String getLocation()
+    159:160:public final void setLocation(java.lang.String)
+    168:168:public final java.lang.String getLocationType()
+    177:178:public final void setLocationType(java.lang.String)
+com.google.api.client.googleapis.json.GoogleJsonErrorContainer
+com.google.api.client.googleapis.json.GoogleJsonResponseException:
+    private static final long serialVersionUID
+    76:76:public final com.google.api.client.googleapis.json.GoogleJsonError getDetails()
+    178:188:public static com.google.api.client.http.HttpResponse execute(com.google.api.client.json.JsonFactory,com.google.api.client.http.HttpRequest)
+com.google.api.client.googleapis.media.MediaHttpDownloader
+com.google.api.client.googleapis.media.MediaHttpDownloader$DownloadState
+com.google.api.client.googleapis.media.MediaHttpDownloaderProgressListener
+com.google.api.client.googleapis.media.MediaHttpUploader:
+    public static final java.lang.String CONTENT_LENGTH_HEADER
+    public static final java.lang.String CONTENT_TYPE_HEADER
+    static final int MB
+    private static final int KB
+    public static final int MINIMUM_CHUNK_SIZE
+    public static final int DEFAULT_CHUNK_SIZE
+    private final com.google.api.client.http.HttpTransport transport
+    com.google.api.client.util.Sleeper sleeper
+    285:290:public MediaHttpUploader(com.google.api.client.http.AbstractInputStreamContent,com.google.api.client.http.HttpTransport,com.google.api.client.http.HttpRequestInitializer)
+    702:702:public com.google.api.client.http.HttpContent getMetadata()
+    707:708:public com.google.api.client.googleapis.media.MediaHttpUploader setMetadata(com.google.api.client.http.HttpContent)
+    713:713:public com.google.api.client.http.HttpContent getMediaContent()
+    718:718:public com.google.api.client.http.HttpTransport getTransport()
+    744:745:public com.google.api.client.googleapis.media.MediaHttpUploader setDirectUploadEnabled(boolean)
+    757:757:public boolean isDirectUploadEnabled()
+    764:765:public com.google.api.client.googleapis.media.MediaHttpUploader setProgressListener(com.google.api.client.googleapis.media.MediaHttpUploaderProgressListener)
+    772:772:public com.google.api.client.googleapis.media.MediaHttpUploaderProgressListener getProgressListener()
+    785:787:public com.google.api.client.googleapis.media.MediaHttpUploader setChunkSize(int)
+    795:795:public int getChunkSize()
+    804:804:public boolean getDisableGZipContent()
+    834:834:public com.google.api.client.util.Sleeper getSleeper()
+    843:844:public com.google.api.client.googleapis.media.MediaHttpUploader setSleeper(com.google.api.client.util.Sleeper)
+    857:857:public java.lang.String getInitiationRequestMethod()
+    871:874:public com.google.api.client.googleapis.media.MediaHttpUploader setInitiationRequestMethod(java.lang.String)
+    885:885:public com.google.api.client.http.HttpHeaders getInitiationHeaders()
+    895:895:public long getNumBytesUploaded()
+    916:916:public com.google.api.client.googleapis.media.MediaHttpUploader$UploadState getUploadState()
+    933:936:public double getProgress()
+com.google.api.client.googleapis.notifications.AbstractNotification
+com.google.api.client.googleapis.notifications.NotificationUtils
+com.google.api.client.googleapis.notifications.ResourceStates
+com.google.api.client.googleapis.notifications.StoredChannel
+com.google.api.client.googleapis.notifications.TypedNotification
+com.google.api.client.googleapis.notifications.TypedNotificationCallback
+com.google.api.client.googleapis.notifications.UnparsedNotification
+com.google.api.client.googleapis.notifications.UnparsedNotificationCallback
+com.google.api.client.googleapis.notifications.json.JsonNotificationCallback
+com.google.api.client.googleapis.notifications.json.package-info
+com.google.api.client.googleapis.notifications.package-info
+com.google.api.client.googleapis.services.AbstractGoogleClient:
+    113:113:public final java.lang.String getServicePath()
+    208:208:public final com.google.api.client.googleapis.batch.BatchRequest batch()
+    230:233:public final com.google.api.client.googleapis.batch.BatchRequest batch(com.google.api.client.http.HttpRequestInitializer)
+    238:238:public final boolean getSuppressPatternChecks()
+    247:247:public final boolean getSuppressRequiredParameterChecks()
+com.google.api.client.googleapis.services.AbstractGoogleClient$Builder:
+    public abstract com.google.api.client.googleapis.services.AbstractGoogleClient build()
+    345:345:public final com.google.api.client.http.HttpTransport getTransport()
+    357:357:public com.google.api.client.util.ObjectParser getObjectParser()
+    398:398:public final java.lang.String getServicePath()
+    427:427:public final com.google.api.client.googleapis.services.GoogleClientRequestInitializer getGoogleClientRequestInitializer()
+    446:446:public final com.google.api.client.http.HttpRequestInitializer getHttpRequestInitializer()
+    458:459:public com.google.api.client.googleapis.services.AbstractGoogleClient$Builder setHttpRequestInitializer(com.google.api.client.http.HttpRequestInitializer)
+    467:467:public final java.lang.String getApplicationName()
+    480:481:public com.google.api.client.googleapis.services.AbstractGoogleClient$Builder setApplicationName(java.lang.String)
+    486:486:public final boolean getSuppressPatternChecks()
+    502:503:public com.google.api.client.googleapis.services.AbstractGoogleClient$Builder setSuppressPatternChecks(boolean)
+    512:512:public final boolean getSuppressRequiredParameterChecks()
+    530:531:public com.google.api.client.googleapis.services.AbstractGoogleClient$Builder setSuppressRequiredParameterChecks(boolean)
+    545:545:public com.google.api.client.googleapis.services.AbstractGoogleClient$Builder setSuppressAllChecks(boolean)
+com.google.api.client.googleapis.services.AbstractGoogleClientRequest:
+    private com.google.api.client.googleapis.media.MediaHttpDownloader downloader
+    117:117:public final boolean getDisableGZipContent()
+    139:139:public final java.lang.String getRequestMethod()
+    144:144:public final java.lang.String getUriTemplate()
+    149:149:public final com.google.api.client.http.HttpContent getHttpContent()
+    166:166:public final com.google.api.client.http.HttpHeaders getRequestHeaders()
+    183:184:public com.google.api.client.googleapis.services.AbstractGoogleClientRequest setRequestHeaders(com.google.api.client.http.HttpHeaders)
+    191:191:public final com.google.api.client.http.HttpHeaders getLastResponseHeaders()
+    198:198:public final int getLastStatusCode()
+    206:206:public final java.lang.String getLastStatusMessage()
+    211:211:public final java.lang.Class getResponseClass()
+    216:216:public final com.google.api.client.googleapis.media.MediaHttpUploader getMediaHttpUploader()
+    225:232:protected final void initializeMediaUpload(com.google.api.client.http.AbstractInputStreamContent)
+    236:236:public final com.google.api.client.googleapis.media.MediaHttpDownloader getMediaHttpDownloader()
+    241:244:protected final void initializeMediaDownload()
+    268:268:public com.google.api.client.http.HttpRequest buildHttpRequest()
+    283:283:protected com.google.api.client.http.HttpRequest buildHttpRequestUsingHead()
+    370:371:protected com.google.api.client.http.HttpResponse executeMedia()
+    396:399:protected com.google.api.client.http.HttpResponse executeUsingHead()
+    487:487:public java.io.InputStream executeAsInputStream()
+    514:514:protected java.io.InputStream executeMediaAsInputStream()
+    532:533:public void executeAndDownloadTo(java.io.OutputStream)
+    550:555:protected void executeMediaAndDownloadTo(java.io.OutputStream)
+    572:574:public final void queue(com.google.api.client.googleapis.batch.BatchRequest,java.lang.Class,com.google.api.client.googleapis.batch.BatchCallback)
+    597:600:protected final void checkRequiredParameter(java.lang.Object,java.lang.String)
+com.google.api.client.googleapis.services.CommonGoogleClientRequestInitializer
+com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder:
+    82:82:public final com.google.api.client.json.JsonObjectParser getObjectParser()
+    87:87:public final com.google.api.client.json.JsonFactory getJsonFactory()
+    public abstract com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient build()
+    111:111:public com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder setHttpRequestInitializer(com.google.api.client.http.HttpRequestInitializer)
+    116:116:public com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder setApplicationName(java.lang.String)
+    121:121:public com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder setSuppressPatternChecks(boolean)
+    126:126:public com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder setSuppressRequiredParameterChecks(boolean)
+    131:131:public com.google.api.client.googleapis.services.json.AbstractGoogleJsonClient$Builder setSuppressAllChecks(boolean)
+    61:61:public bridge synthetic com.google.api.client.googleapis.services.AbstractGoogleClient$Builder setSuppressAllChecks(boolean)
+    61:61:public bridge synthetic com.google.api.client.googleapis.services.AbstractGoogleClient$Builder setSuppressRequiredParameterChecks(boolean)
+    61:61:public bridge synthetic com.google.api.client.googleapis.services.AbstractGoogleClient$Builder setSuppressPatternChecks(boolean)
+    61:61:public bridge synthetic com.google.api.client.googleapis.services.AbstractGoogleClient$Builder setApplicationName(java.lang.String)
+    61:61:public bridge synthetic com.google.api.client.googleapis.services.AbstractGoogleClient$Builder setHttpRequestInitializer(com.google.api.client.http.HttpRequestInitializer)
+    61:61:public bridge synthetic com.google.api.client.util.ObjectParser getObjectParser()
+    61:61:public bridge synthetic com.google.api.client.googleapis.services.AbstractGoogleClient build()
+com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest:
+    76:76:public com.google.api.client.googleapis.services.json.AbstractGoogleJsonClientRequest setRequestHeaders(com.google.api.client.http.HttpHeaders)
+    108:109:public final void queue(com.google.api.client.googleapis.batch.BatchRequest,com.google.api.client.googleapis.batch.json.JsonBatchCallback)
+    118:118:public java.lang.Object getJsonContent()
+    40:40:public bridge synthetic com.google.api.client.googleapis.services.AbstractGoogleClientRequest setRequestHeaders(com.google.api.client.http.HttpHeaders)
+com.google.api.client.googleapis.services.json.CommonGoogleJsonClientRequestInitializer
+com.google.api.client.googleapis.testing.json.GoogleJsonResponseExceptionFactoryTesting
+com.google.api.client.googleapis.testing.json.package-info
+com.google.api.client.googleapis.testing.notifications.MockUnparsedNotificationCallback
+com.google.api.client.googleapis.testing.notifications.package-info
+com.google.api.client.googleapis.testing.services.MockGoogleClient
+com.google.api.client.googleapis.testing.services.MockGoogleClient$Builder
+com.google.api.client.googleapis.testing.services.MockGoogleClientRequest
+com.google.api.client.googleapis.testing.services.json.MockGoogleJsonClient
+com.google.api.client.googleapis.testing.services.json.MockGoogleJsonClient$Builder
+com.google.api.client.googleapis.testing.services.json.MockGoogleJsonClientRequest
+com.google.api.client.googleapis.testing.services.json.package-info
+com.google.api.client.googleapis.testing.services.package-info
+com.google.api.client.http.AbstractHttpContent:
+    90:91:public com.google.api.client.http.AbstractHttpContent setMediaType(com.google.api.client.http.HttpMediaType)
+com.google.api.client.http.BackOffPolicy:
+    public static final long STOP
+com.google.api.client.http.BasicAuthentication
+com.google.api.client.http.ByteArrayContent:
+    65:66:public ByteArrayContent(java.lang.String,byte[])
+    107:107:public static com.google.api.client.http.ByteArrayContent fromString(java.lang.String,java.lang.String)
+com.google.api.client.http.ExponentialBackOffPolicy
+com.google.api.client.http.ExponentialBackOffPolicy$Builder
+com.google.api.client.http.FileContent
+com.google.api.client.http.GenericUrl:
+    125:132:public GenericUrl(java.net.URI)
+    213:213:public final java.lang.String getScheme()
+    222:223:public final void setScheme(java.lang.String)
+    231:231:public java.lang.String getHost()
+    240:241:public final void setHost(java.lang.String)
+    249:249:public final java.lang.String getUserInfo()
+    258:259:public final void setUserInfo(java.lang.String)
+    267:267:public int getPort()
+    276:278:public final void setPort(int)
+    287:287:public java.util.List getPathParts()
+    307:308:public void setPathParts(java.util.List)
+    316:316:public java.lang.String getFragment()
+    325:326:public final void setFragment(java.lang.String)
+    401:401:public final java.net.URI toURI()
+    447:454:public java.lang.Object getFirst(java.lang.String)
+    464:473:public java.util.Collection getAll(java.lang.String)
+    483:489:public java.lang.String getRawPath()
+    513:523:public void appendRawPath(java.lang.String)
+    618:620:private static java.net.URI toURI(java.lang.String)
+com.google.api.client.http.HttpBackOffIOExceptionHandler
+com.google.api.client.http.HttpBackOffUnsuccessfulResponseHandler
+com.google.api.client.http.HttpBackOffUnsuccessfulResponseHandler$BackOffRequired
+com.google.api.client.http.HttpBackOffUnsuccessfulResponseHandler$BackOffRequired$1
+com.google.api.client.http.HttpBackOffUnsuccessfulResponseHandler$BackOffRequired$2
+com.google.api.client.http.HttpContent:
+    public abstract void writeTo(java.io.OutputStream)
+com.google.api.client.http.HttpEncodingStreamingContent:
+    56:56:public com.google.api.client.util.StreamingContent getContent()
+    61:61:public com.google.api.client.http.HttpEncoding getEncoding()
+com.google.api.client.http.HttpHeaders:
+    184:184:public final java.lang.String getAccept()
+    198:199:public com.google.api.client.http.HttpHeaders setAccept(java.lang.String)
+    208:208:public final java.lang.String getAcceptEncoding()
+    231:231:public final java.lang.String getAuthorization()
+    240:240:public final java.util.List getAuthorizationAsList()
+    278:278:public final java.lang.String getCacheControl()
+    292:293:public com.google.api.client.http.HttpHeaders setCacheControl(java.lang.String)
+    302:302:public final java.lang.String getContentEncoding()
+    326:326:public final java.lang.Long getContentLength()
+    350:350:public final java.lang.String getContentMD5()
+    364:365:public com.google.api.client.http.HttpHeaders setContentMD5(java.lang.String)
+    374:374:public final java.lang.String getContentRange()
+    426:426:public final java.lang.String getCookie()
+    440:441:public com.google.api.client.http.HttpHeaders setCookie(java.lang.String)
+    450:450:public final java.lang.String getDate()
+    464:465:public com.google.api.client.http.HttpHeaders setDate(java.lang.String)
+    474:474:public final java.lang.String getETag()
+    488:489:public com.google.api.client.http.HttpHeaders setETag(java.lang.String)
+    498:498:public final java.lang.String getExpires()
+    512:513:public com.google.api.client.http.HttpHeaders setExpires(java.lang.String)
+    522:522:public final java.lang.String getIfModifiedSince()
+    546:546:public final java.lang.String getIfMatch()
+    570:570:public final java.lang.String getIfNoneMatch()
+    594:594:public final java.lang.String getIfUnmodifiedSince()
+    618:618:public final java.lang.String getIfRange()
+    642:642:public final java.lang.String getLastModified()
+    656:657:public com.google.api.client.http.HttpHeaders setLastModified(java.lang.String)
+    680:681:public com.google.api.client.http.HttpHeaders setLocation(java.lang.String)
+    690:690:public final java.lang.String getMimeVersion()
+    704:705:public com.google.api.client.http.HttpHeaders setMimeVersion(java.lang.String)
+    728:729:public com.google.api.client.http.HttpHeaders setRange(java.lang.String)
+    738:738:public final java.lang.String getRetryAfter()
+    752:753:public com.google.api.client.http.HttpHeaders setRetryAfter(java.lang.String)
+    786:786:public final java.lang.String getAuthenticate()
+    795:795:public final java.util.List getAuthenticateAsList()
+    809:810:public com.google.api.client.http.HttpHeaders setAuthenticate(java.lang.String)
+    819:819:public final java.lang.Long getAge()
+    833:834:public com.google.api.client.http.HttpHeaders setAge(java.lang.Long)
+    849:852:public com.google.api.client.http.HttpHeaders setBasicAuthentication(java.lang.String,java.lang.String)
+    1038:1048:public java.lang.String getFirstHeaderStringValue(java.lang.String)
+    1059:1071:public java.util.List getHeaderStringValues(java.lang.String)
+com.google.api.client.http.HttpMediaType:
+    100:103:public HttpMediaType(java.lang.String,java.lang.String)
+    231:233:public void clearParameters()
+    240:240:public java.util.Map getParameters()
+com.google.api.client.http.HttpMethods
+com.google.api.client.http.HttpRequest:
+    public static final java.lang.String VERSION
+    public static final java.lang.String USER_AGENT_SUFFIX
+    286:286:public com.google.api.client.http.HttpEncoding getEncoding()
+    311:311:public com.google.api.client.http.BackOffPolicy getBackOffPolicy()
+    326:327:public com.google.api.client.http.HttpRequest setBackOffPolicy(com.google.api.client.http.BackOffPolicy)
+    379:382:public com.google.api.client.http.HttpRequest setContentLoggingLimit(int)
+    408:409:public com.google.api.client.http.HttpRequest setLoggingEnabled(boolean)
+    418:418:public boolean isCurlLoggingEnabled()
+    431:432:public com.google.api.client.http.HttpRequest setCurlLoggingEnabled(boolean)
+    442:442:public int getConnectTimeout()
+    456:458:public com.google.api.client.http.HttpRequest setConnectTimeout(int)
+    472:472:public int getReadTimeout()
+    482:484:public com.google.api.client.http.HttpRequest setReadTimeout(int)
+    506:507:public com.google.api.client.http.HttpRequest setHeaders(com.google.api.client.http.HttpHeaders)
+    543:544:public com.google.api.client.http.HttpRequest setResponseHeaders(com.google.api.client.http.HttpHeaders)
+    554:554:public com.google.api.client.http.HttpExecuteInterceptor getInterceptor()
+    640:640:public int getNumberOfRetries()
+    656:658:public com.google.api.client.http.HttpRequest setNumberOfRetries(int)
+    704:705:public com.google.api.client.http.HttpRequest setFollowRedirects(boolean)
+    745:745:public boolean getRetryOnExecuteIOException()
+    764:765:public com.google.api.client.http.HttpRequest setRetryOnExecuteIOException(boolean)
+    774:774:public boolean getSuppressUserAgentSuffix()
+    787:788:public com.google.api.client.http.HttpRequest setSuppressUserAgentSuffix(boolean)
+    1072:1079:public java.util.concurrent.Future executeAsync(java.util.concurrent.Executor)
+    1092:1092:public java.util.concurrent.Future executeAsync()
+    1144:1144:public com.google.api.client.util.Sleeper getSleeper()
+    1153:1154:public com.google.api.client.http.HttpRequest setSleeper(com.google.api.client.util.Sleeper)
+com.google.api.client.http.HttpRequest$1
+com.google.api.client.http.HttpRequestFactory:
+    64:64:public com.google.api.client.http.HttpTransport getTransport()
+    77:77:public com.google.api.client.http.HttpRequestInitializer getInitializer()
+    112:112:public com.google.api.client.http.HttpRequest buildDeleteRequest(com.google.api.client.http.GenericUrl)
+    122:122:public com.google.api.client.http.HttpRequest buildGetRequest(com.google.api.client.http.GenericUrl)
+    133:133:public com.google.api.client.http.HttpRequest buildPostRequest(com.google.api.client.http.GenericUrl,com.google.api.client.http.HttpContent)
+    155:155:public com.google.api.client.http.HttpRequest buildPatchRequest(com.google.api.client.http.GenericUrl,com.google.api.client.http.HttpContent)
+    165:165:public com.google.api.client.http.HttpRequest buildHeadRequest(com.google.api.client.http.GenericUrl)
+com.google.api.client.http.HttpResponse:
+    188:188:public int getContentLoggingLimit()
+    214:217:public com.google.api.client.http.HttpResponse setContentLoggingLimit(int)
+    230:230:public boolean isLoggingEnabled()
+    243:244:public com.google.api.client.http.HttpResponse setLoggingEnabled(boolean)
+    253:253:public java.lang.String getContentEncoding()
+    272:272:public com.google.api.client.http.HttpMediaType getMediaType()
+    318:318:public com.google.api.client.http.HttpTransport getTransport()
+    420:422:public void download(java.io.OutputStream)
+    485:488:public java.lang.Object parseAs(java.lang.reflect.Type)
+com.google.api.client.http.HttpResponseException:
+    private static final long serialVersionUID
+    91:91:public final boolean isSuccessStatusCode()
+    100:100:public final int getStatusCode()
+    109:109:public final java.lang.String getStatusMessage()
+    118:118:public com.google.api.client.http.HttpHeaders getHeaders()
+    127:127:public final java.lang.String getContent()
+com.google.api.client.http.HttpResponseException$Builder:
+    193:193:public final java.lang.String getMessage()
+    211:211:public final int getStatusCode()
+    230:230:public final java.lang.String getStatusMessage()
+    248:248:public com.google.api.client.http.HttpHeaders getHeaders()
+    266:266:public final java.lang.String getContent()
+    284:284:public com.google.api.client.http.HttpResponseException build()
+com.google.api.client.http.HttpStatusCodes:
+    public static final int STATUS_CODE_OK
+    public static final int STATUS_CODE_NO_CONTENT
+    public static final int STATUS_CODE_MULTIPLE_CHOICES
+    public static final int STATUS_CODE_MOVED_PERMANENTLY
+    public static final int STATUS_CODE_FOUND
+    public static final int STATUS_CODE_SEE_OTHER
+    public static final int STATUS_CODE_NOT_MODIFIED
+    public static final int STATUS_CODE_TEMPORARY_REDIRECT
+    public static final int STATUS_CODE_UNAUTHORIZED
+    public static final int STATUS_CODE_FORBIDDEN
+    public static final int STATUS_CODE_NOT_FOUND
+    public static final int STATUS_CODE_SERVER_ERROR
+    public static final int STATUS_CODE_BAD_GATEWAY
+    public static final int STATUS_CODE_SERVICE_UNAVAILABLE
+    24:24:public HttpStatusCodes()
+com.google.api.client.http.HttpTransport:
+    159:159:public void shutdown()
+com.google.api.client.http.LowLevelHttpResponse:
+    public abstract long getContentLength()
+com.google.api.client.http.MultipartContent:
+    static final java.lang.String NEWLINE
+    private static final java.lang.String TWO_DASHES
+    128:129:public com.google.api.client.http.MultipartContent setMediaType(com.google.api.client.http.HttpMediaType)
+    134:134:public final java.util.Collection getParts()
+    159:160:public com.google.api.client.http.MultipartContent setParts(java.util.Collection)
+    198:199:public com.google.api.client.http.MultipartContent setBoundary(java.lang.String)
+    48:48:public bridge synthetic com.google.api.client.http.AbstractHttpContent setMediaType(com.google.api.client.http.HttpMediaType)
+com.google.api.client.http.MultipartContent$Part:
+    248:248:public com.google.api.client.http.HttpContent getContent()
+    259:259:public com.google.api.client.http.HttpHeaders getHeaders()
+    264:265:public com.google.api.client.http.MultipartContent$Part setEncoding(com.google.api.client.http.HttpEncoding)
+    270:270:public com.google.api.client.http.HttpEncoding getEncoding()
+com.google.api.client.http.UriTemplate:
+    private static final java.lang.String COMPOSITE_NON_EXPLODE_JOINER
+    77:91:public UriTemplate()
+com.google.api.client.http.UrlEncodedContent:
+    88:89:public com.google.api.client.http.UrlEncodedContent setMediaType(com.google.api.client.http.HttpMediaType)
+    98:98:public final java.lang.Object getData()
+    128:134:public static com.google.api.client.http.UrlEncodedContent getContent(com.google.api.client.http.HttpRequest)
+    53:53:public bridge synthetic com.google.api.client.http.AbstractHttpContent setMediaType(com.google.api.client.http.HttpMediaType)
+com.google.api.client.http.UrlEncodedParser:
+    public static final java.lang.String CONTENT_TYPE
+    71:71:public UrlEncodedParser()
+    226:227:public java.lang.Object parseAndClose(java.io.InputStream,java.nio.charset.Charset,java.lang.reflect.Type)
+com.google.api.client.http.apache.ApacheHttpResponse:
+    66:67:public long getContentLength()
+    95:95:public java.lang.String getHeaderValue(java.lang.String)
+com.google.api.client.http.apache.ApacheHttpTransport:
+    234:235:public void shutdown()
+    243:243:public org.apache.http.client.HttpClient getHttpClient()
+com.google.api.client.http.apache.ApacheHttpTransport$Builder
+com.google.api.client.http.apache.SSLSocketFactoryExtension
+com.google.api.client.http.javanet.NetHttpResponse:
+    90:91:public long getContentLength()
+com.google.api.client.http.javanet.NetHttpTransport$Builder
+com.google.api.client.http.json.JsonHttpContent:
+    87:88:public com.google.api.client.http.json.JsonHttpContent setMediaType(com.google.api.client.http.HttpMediaType)
+    97:97:public final java.lang.Object getData()
+    106:106:public final com.google.api.client.json.JsonFactory getJsonFactory()
+    115:115:public final java.lang.String getWrapperKey()
+    49:49:public bridge synthetic com.google.api.client.http.AbstractHttpContent setMediaType(com.google.api.client.http.HttpMediaType)
+com.google.api.client.json.CustomizeJsonParser:
+    40:40:public CustomizeJsonParser()
+com.google.api.client.json.GenericJson:
+    51:51:public final com.google.api.client.json.JsonFactory getFactory()
+com.google.api.client.json.Json:
+    26:26:public Json()
+com.google.api.client.json.JsonFactory:
+    public abstract com.google.api.client.json.JsonParser createJsonParser(java.io.Reader)
+    public abstract com.google.api.client.json.JsonGenerator createJsonGenerator(java.io.Writer)
+    101:101:public final com.google.api.client.json.JsonObjectParser createJsonObjectParser()
+    142:142:public final byte[] toByteArray(java.lang.Object)
+    187:187:public final java.lang.Object fromString(java.lang.String,java.lang.Class)
+    206:206:public final java.lang.Object fromInputStream(java.io.InputStream,java.lang.Class)
+    222:222:public final java.lang.Object fromInputStream(java.io.InputStream,java.nio.charset.Charset,java.lang.Class)
+    236:236:public final java.lang.Object fromReader(java.io.Reader,java.lang.Class)
+com.google.api.client.json.JsonGenerator:
+    public abstract com.google.api.client.json.JsonFactory getFactory()
+    public abstract void close()
+    public abstract void writeNumber(java.lang.String)
+com.google.api.client.json.JsonObjectParser:
+    65:66:public JsonObjectParser(com.google.api.client.json.JsonFactory)
+    92:92:public java.lang.Object parseAndClose(java.io.Reader,java.lang.Class)
+    96:98:public java.lang.Object parseAndClose(java.io.Reader,java.lang.reflect.Type)
+com.google.api.client.json.JsonObjectParser$Builder:
+    168:168:public final com.google.api.client.json.JsonFactory getJsonFactory()
+    173:173:public final java.util.Collection getWrapperKeys()
+com.google.api.client.json.JsonParser:
+    262:263:public final void parseAndClose(java.lang.Object)
+    282:286:public final void parseAndClose(java.lang.Object,com.google.api.client.json.CustomizeJsonParser)
+    304:304:public final java.lang.Object parse(java.lang.Class)
+    395:396:public final void parse(java.lang.Object)
+    415:418:public final void parse(java.lang.Object,com.google.api.client.json.CustomizeJsonParser)
+    497:497:public final java.util.Collection parseArrayAndClose(java.lang.Class,java.lang.Class)
+    515:517:public final java.util.Collection parseArrayAndClose(java.lang.Class,java.lang.Class,com.google.api.client.json.CustomizeJsonParser)
+    533:534:public final void parseArrayAndClose(java.util.Collection,java.lang.Class)
+    550:554:public final void parseArrayAndClose(java.util.Collection,java.lang.Class,com.google.api.client.json.CustomizeJsonParser)
+    567:567:public final java.util.Collection parseArray(java.lang.Class,java.lang.Class)
+    585:588:public final java.util.Collection parseArray(java.lang.Class,java.lang.Class,com.google.api.client.json.CustomizeJsonParser)
+    602:603:public final void parseArray(java.util.Collection,java.lang.Class)
+    618:620:public final void parseArray(java.util.Collection,java.lang.Class,com.google.api.client.json.CustomizeJsonParser)
+com.google.api.client.json.gson.GsonFactory
+com.google.api.client.json.gson.GsonFactory$InstanceHolder
+com.google.api.client.json.gson.GsonGenerator
+com.google.api.client.json.gson.GsonGenerator$StringNumber
+com.google.api.client.json.gson.GsonParser
+com.google.api.client.json.gson.GsonParser$1
+com.google.api.client.json.jackson2.JacksonFactory:
+    62:62:public static com.google.api.client.json.jackson2.JacksonFactory getDefaultInstance()
+    79:79:public com.google.api.client.json.JsonGenerator createJsonGenerator(java.io.Writer)
+    84:85:public com.google.api.client.json.JsonParser createJsonParser(java.io.Reader)
+com.google.api.client.json.jackson2.JacksonFactory$InstanceHolder
+com.google.api.client.json.jackson2.JacksonGenerator:
+    38:38:public com.google.api.client.json.jackson2.JacksonFactory getFactory()
+    53:54:public void close()
+    113:114:public void writeNumber(java.lang.String)
+    32:32:public bridge synthetic com.google.api.client.json.JsonFactory getFactory()
+com.google.api.client.json.rpc2.JsonRpcRequest
+com.google.api.client.json.webtoken.JsonWebSignature
+com.google.api.client.json.webtoken.JsonWebSignature$Header
+com.google.api.client.json.webtoken.JsonWebSignature$Parser
+com.google.api.client.json.webtoken.JsonWebToken
+com.google.api.client.json.webtoken.JsonWebToken$Header
+com.google.api.client.json.webtoken.JsonWebToken$Payload
+com.google.api.client.repackaged.com.google.common.annotations.Beta
+com.google.api.client.repackaged.com.google.common.annotations.GwtCompatible
+com.google.api.client.repackaged.com.google.common.annotations.VisibleForTesting
+com.google.api.client.repackaged.com.google.common.base.Joiner
+com.google.api.client.repackaged.com.google.common.base.Joiner$1
+com.google.api.client.repackaged.com.google.common.base.Joiner$2
+com.google.api.client.repackaged.com.google.common.base.Joiner$3
+com.google.api.client.repackaged.com.google.common.base.Joiner$MapJoiner
+com.google.api.client.repackaged.com.google.common.base.Objects:
+    42:42:private Objects()
+    77:77:public static varargs int hashCode(java.lang.Object[])
+    121:121:public static com.google.api.client.repackaged.com.google.common.base.Objects$ToStringHelper toStringHelper(java.lang.Object)
+    135:135:public static com.google.api.client.repackaged.com.google.common.base.Objects$ToStringHelper toStringHelper(java.lang.Class)
+    147:147:public static com.google.api.client.repackaged.com.google.common.base.Objects$ToStringHelper toStringHelper(java.lang.String)
+    155:169:private static java.lang.String simpleName(java.lang.Class)
+    189:189:public static java.lang.Object firstNonNull(java.lang.Object,java.lang.Object)
+com.google.api.client.repackaged.com.google.common.base.Objects$1
+com.google.api.client.repackaged.com.google.common.base.Objects$ToStringHelper
+com.google.api.client.repackaged.com.google.common.base.Objects$ToStringHelper$ValueHolder
+com.google.api.client.repackaged.com.google.common.base.Preconditions:
+    65:65:private Preconditions()
+    148:151:public static void checkState(boolean,java.lang.Object)
+    284:284:public static int checkElementIndex(int,int)
+    304:307:public static int checkElementIndex(int,int,java.lang.String)
+    311:316:private static java.lang.String badElementIndex(int,int,java.lang.String)
+    334:334:public static int checkPositionIndex(int,int)
+    354:357:public static int checkPositionIndex(int,int,java.lang.String)
+    361:366:private static java.lang.String badPositionIndex(int,int,java.lang.String)
+    387:390:public static void checkPositionIndexes(int,int,int)
+    393:400:private static java.lang.String badPositionIndexes(int,int,int)
+com.google.api.client.repackaged.com.google.common.base.Strings:
+    38:38:private Strings()
+    47:47:public static java.lang.String nullToEmpty(java.lang.String)
+    58:58:public static java.lang.String emptyToNull(java.lang.String)
+    98:107:public static java.lang.String padStart(java.lang.String,int,char)
+    130:139:public static java.lang.String padEnd(java.lang.String,int,char)
+    154:177:public static java.lang.String repeat(java.lang.String,int)
+    189:200:public static java.lang.String commonPrefix(java.lang.CharSequence,java.lang.CharSequence)
+    212:225:public static java.lang.String commonSuffix(java.lang.CharSequence,java.lang.CharSequence)
+    234:234:static boolean validSurrogatePairAt(java.lang.CharSequence,int)
+com.google.api.client.repackaged.com.google.common.base.Throwables:
+    43:43:private Throwables()
+    108:110:public static void propagateIfPossible(java.lang.Throwable,java.lang.Class)
+    129:132:public static void propagateIfPossible(java.lang.Throwable,java.lang.Class,java.lang.Class)
+    174:177:public static java.lang.Throwable getRootCause(java.lang.Throwable)
+    199:205:public static java.util.List getCausalChain(java.lang.Throwable)
+    216:218:public static java.lang.String getStackTraceAsString(java.lang.Throwable)
+com.google.api.client.repackaged.org.apache.commons.codec.BinaryDecoder
+com.google.api.client.repackaged.org.apache.commons.codec.BinaryEncoder
+com.google.api.client.repackaged.org.apache.commons.codec.Decoder
+com.google.api.client.repackaged.org.apache.commons.codec.DecoderException
+com.google.api.client.repackaged.org.apache.commons.codec.Encoder
+com.google.api.client.repackaged.org.apache.commons.codec.EncoderException
+com.google.api.client.repackaged.org.apache.commons.codec.binary.Base64
+com.google.api.client.repackaged.org.apache.commons.codec.binary.BaseNCodec
+com.google.api.client.repackaged.org.apache.commons.codec.binary.StringUtils
+com.google.api.client.testing.http.FixedClock
+com.google.api.client.testing.http.HttpTesting
+com.google.api.client.testing.http.MockHttpContent
+com.google.api.client.testing.http.MockHttpTransport
+com.google.api.client.testing.http.MockHttpTransport$Builder
+com.google.api.client.testing.http.MockHttpUnsuccessfulResponseHandler
+com.google.api.client.testing.http.MockLowLevelHttpRequest
+com.google.api.client.testing.http.MockLowLevelHttpResponse
+com.google.api.client.testing.http.apache.MockHttpClient
+com.google.api.client.testing.http.apache.MockHttpClient$1
+com.google.api.client.testing.http.javanet.MockHttpURLConnection
+com.google.api.client.testing.json.MockJsonFactory
+com.google.api.client.testing.json.MockJsonGenerator
+com.google.api.client.testing.json.MockJsonParser
+com.google.api.client.testing.util.LogRecordingHandler
+com.google.api.client.testing.util.MockBackOff
+com.google.api.client.testing.util.MockSleeper
+com.google.api.client.testing.util.SecurityTestUtils
+com.google.api.client.testing.util.TestableByteArrayInputStream
+com.google.api.client.testing.util.TestableByteArrayOutputStream
+com.google.api.client.util.ArrayMap:
+    65:67:public static com.google.api.client.util.ArrayMap create(int)
+    81:90:public static varargs com.google.api.client.util.ArrayMap of(java.lang.Object[])
+    166:167:public final void add(java.lang.Object,java.lang.Object)
+    224:225:public final void trim()
+com.google.api.client.util.ArrayValueMap:
+    137:143:public void put(java.lang.String,java.lang.Class,java.lang.Object)
+com.google.api.client.util.BackOff
+com.google.api.client.util.BackOff$1
+com.google.api.client.util.BackOff$2
+com.google.api.client.util.BackOffUtils
+com.google.api.client.util.Base64
+com.google.api.client.util.Beta
+com.google.api.client.util.ByteArrayStreamingContent
+com.google.api.client.util.ByteStreams:
+    private static final int BUF_SIZE
+    190:191:private ByteStreams()
+com.google.api.client.util.Charsets:
+    39:40:private Charsets()
+com.google.api.client.util.ClassInfo:
+    103:103:public java.lang.Class getUnderlyingClass()
+    156:156:public java.util.Collection getNames()
+com.google.api.client.util.Clock
+com.google.api.client.util.Clock$1
+com.google.api.client.util.Collections2
+com.google.api.client.util.Data:
+    42:42:public Data()
+com.google.api.client.util.DateTime:
+    private static final long serialVersionUID
+    72:73:public DateTime(java.util.Date,java.util.TimeZone)
+    100:101:public DateTime(java.util.Date)
+    111:112:public DateTime(long,int)
+    146:154:public DateTime(java.lang.String)
+    167:167:public long getValue()
+    176:176:public boolean isDateOnly()
+    185:185:public int getTimeZoneShift()
+com.google.api.client.util.ExponentialBackOff
+com.google.api.client.util.ExponentialBackOff$Builder
+com.google.api.client.util.FieldInfo:
+    211:211:public com.google.api.client.util.ClassInfo getClassInfo()
+com.google.api.client.util.GenericData:
+    186:186:public final java.util.Map getUnknownKeys()
+    195:196:public final void setUnknownKeys(java.util.Map)
+com.google.api.client.util.IOUtils:
+    34:34:public IOUtils()
+    129:131:public static byte[] serialize(java.lang.Object)
+    145:149:public static void serialize(java.lang.Object,java.io.OutputStream)
+    161:164:public static java.io.Serializable deserialize(byte[])
+    179:185:public static java.io.Serializable deserialize(java.io.InputStream)
+    200:230:public static boolean isSymbolicLink(java.io.File)
+com.google.api.client.util.Joiner
+com.google.api.client.util.Lists
+com.google.api.client.util.LoggingByteArrayOutputStream:
+    119:119:public final int getMaximumBytesToLog()
+    124:124:public final synchronized int getBytesWritten()
+com.google.api.client.util.LoggingInputStream:
+    72:72:public final com.google.api.client.util.LoggingByteArrayOutputStream getLogStream()
+com.google.api.client.util.Maps
+com.google.api.client.util.NanoClock
+com.google.api.client.util.NanoClock$1
+com.google.api.client.util.ObjectParser:
+    public abstract java.lang.Object parseAndClose(java.io.InputStream,java.nio.charset.Charset,java.lang.reflect.Type)
+    public abstract java.lang.Object parseAndClose(java.io.Reader,java.lang.Class)
+    public abstract java.lang.Object parseAndClose(java.io.Reader,java.lang.reflect.Type)
+com.google.api.client.util.Objects:
+    88:88:public static com.google.api.client.util.Objects$ToStringHelper toStringHelper(java.lang.Object)
+    130:131:private Objects()
+com.google.api.client.util.Objects$ToStringHelper
+com.google.api.client.util.PemReader
+com.google.api.client.util.PemReader$Section
+com.google.api.client.util.Preconditions:
+    94:95:public static void checkState(boolean,java.lang.Object)
+    163:164:private Preconditions()
+com.google.api.client.util.SecurityUtils
+com.google.api.client.util.Sets:
+    44:44:public static java.util.TreeSet newTreeSet()
+    47:48:private Sets()
+com.google.api.client.util.SslUtils
+com.google.api.client.util.SslUtils$1
+com.google.api.client.util.SslUtils$2
+com.google.api.client.util.StringUtils:
+    57:57:public static byte[] getBytesUtf8(java.lang.String)
+    73:73:public static java.lang.String newStringUtf8(byte[])
+    76:77:private StringUtils()
+com.google.api.client.util.Strings:
+    39:40:private Strings()
+com.google.api.client.util.Throwables:
+    77:78:public static void propagateIfPossible(java.lang.Throwable)
+    100:101:public static void propagateIfPossible(java.lang.Throwable,java.lang.Class)
+    103:104:private Throwables()
+com.google.api.client.util.Types:
+    408:409:private Types()
+com.google.api.client.util.escape.CharEscapers:
+    216:217:private CharEscapers()
+com.google.api.client.util.escape.PercentEscaper:
+    public static final java.lang.String SAFECHARS_URLENCODER
+    public static final java.lang.String SAFEPATHCHARS_URLENCODER
+    public static final java.lang.String SAFE_PLUS_RESERVED_CHARS_URLENCODER
+    public static final java.lang.String SAFEUSERINFOCHARS_URLENCODER
+    public static final java.lang.String SAFEQUERYSTRINGCHARS_URLENCODER
+com.google.api.client.util.escape.Platform:
+    21:22:private Platform()
+com.google.api.client.util.escape.UnicodeEscaper:
+    private static final int DEST_PAD
+    public abstract java.lang.String escape(java.lang.String)
+com.google.api.client.util.store.AbstractDataStore
+com.google.api.client.util.store.AbstractDataStoreFactory
+com.google.api.client.util.store.AbstractMemoryDataStore
+com.google.api.client.util.store.DataStore
+com.google.api.client.util.store.DataStoreFactory
+com.google.api.client.util.store.DataStoreUtils
+com.google.api.client.util.store.FileDataStoreFactory
+com.google.api.client.util.store.FileDataStoreFactory$FileDataStore
+com.google.api.client.util.store.MemoryDataStoreFactory
+com.google.api.client.util.store.MemoryDataStoreFactory$InstanceHolder
+com.google.api.client.util.store.MemoryDataStoreFactory$MemoryDataStore
+com.google.gson.DefaultDateTypeAdapter
+com.google.gson.ExclusionStrategy
+com.google.gson.FieldAttributes
+com.google.gson.FieldNamingPolicy
+com.google.gson.FieldNamingPolicy$1
+com.google.gson.FieldNamingPolicy$2
+com.google.gson.FieldNamingPolicy$3
+com.google.gson.FieldNamingPolicy$4
+com.google.gson.FieldNamingPolicy$5
+com.google.gson.FieldNamingStrategy
+com.google.gson.Gson
+com.google.gson.Gson$1
+com.google.gson.Gson$2
+com.google.gson.Gson$3
+com.google.gson.Gson$4
+com.google.gson.Gson$5
+com.google.gson.Gson$6
+com.google.gson.Gson$7
+com.google.gson.Gson$FutureTypeAdapter
+com.google.gson.GsonBuilder
+com.google.gson.InstanceCreator
+com.google.gson.JsonArray
+com.google.gson.JsonDeserializationContext
+com.google.gson.JsonDeserializer
+com.google.gson.JsonElement
+com.google.gson.JsonIOException
+com.google.gson.JsonNull
+com.google.gson.JsonObject
+com.google.gson.JsonParseException
+com.google.gson.JsonParser
+com.google.gson.JsonPrimitive
+com.google.gson.JsonSerializationContext
+com.google.gson.JsonSerializer
+com.google.gson.JsonStreamParser
+com.google.gson.JsonSyntaxException
+com.google.gson.LongSerializationPolicy
+com.google.gson.LongSerializationPolicy$1
+com.google.gson.LongSerializationPolicy$2
+com.google.gson.TreeTypeAdapter
+com.google.gson.TreeTypeAdapter$1
+com.google.gson.TreeTypeAdapter$SingleTypeFactory
+com.google.gson.TypeAdapter
+com.google.gson.TypeAdapter$1
+com.google.gson.TypeAdapterFactory
+com.google.gson.annotations.Expose
+com.google.gson.annotations.SerializedName
+com.google.gson.annotations.Since
+com.google.gson.annotations.Until
+com.google.gson.internal.$Gson$Preconditions
+com.google.gson.internal.$Gson$Types
+com.google.gson.internal.$Gson$Types$GenericArrayTypeImpl
+com.google.gson.internal.$Gson$Types$ParameterizedTypeImpl
+com.google.gson.internal.$Gson$Types$WildcardTypeImpl
+com.google.gson.internal.ConstructorConstructor
+com.google.gson.internal.ConstructorConstructor$1
+com.google.gson.internal.ConstructorConstructor$2
+com.google.gson.internal.ConstructorConstructor$3
+com.google.gson.internal.ConstructorConstructor$4
+com.google.gson.internal.ConstructorConstructor$5
+com.google.gson.internal.ConstructorConstructor$6
+com.google.gson.internal.ConstructorConstructor$7
+com.google.gson.internal.ConstructorConstructor$8
+com.google.gson.internal.Excluder
+com.google.gson.internal.Excluder$1
+com.google.gson.internal.GsonInternalAccess
+com.google.gson.internal.JsonReaderInternalAccess
+com.google.gson.internal.LazilyParsedNumber
+com.google.gson.internal.ObjectConstructor
+com.google.gson.internal.Pair
+com.google.gson.internal.Primitives
+com.google.gson.internal.Streams
+com.google.gson.internal.Streams$1
+com.google.gson.internal.Streams$AppendableWriter
+com.google.gson.internal.Streams$AppendableWriter$CurrentWrite
+com.google.gson.internal.UnsafeAllocator
+com.google.gson.internal.UnsafeAllocator$1
+com.google.gson.internal.UnsafeAllocator$2
+com.google.gson.internal.UnsafeAllocator$3
+com.google.gson.internal.UnsafeAllocator$4
+com.google.gson.internal.bind.ArrayTypeAdapter
+com.google.gson.internal.bind.ArrayTypeAdapter$1
+com.google.gson.internal.bind.BigDecimalTypeAdapter
+com.google.gson.internal.bind.BigIntegerTypeAdapter
+com.google.gson.internal.bind.CollectionTypeAdapterFactory
+com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter
+com.google.gson.internal.bind.DateTypeAdapter
+com.google.gson.internal.bind.DateTypeAdapter$1
+com.google.gson.internal.bind.JsonTreeReader
+com.google.gson.internal.bind.JsonTreeReader$1
+com.google.gson.internal.bind.JsonTreeWriter
+com.google.gson.internal.bind.JsonTreeWriter$1
+com.google.gson.internal.bind.MapTypeAdapterFactory
+com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter
+com.google.gson.internal.bind.ObjectTypeAdapter
+com.google.gson.internal.bind.ObjectTypeAdapter$1
+com.google.gson.internal.bind.ObjectTypeAdapter$2
+com.google.gson.internal.bind.ReflectiveTypeAdapterFactory
+com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1
+com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter
+com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$BoundField
+com.google.gson.internal.bind.SqlDateTypeAdapter
+com.google.gson.internal.bind.SqlDateTypeAdapter$1
+com.google.gson.internal.bind.TimeTypeAdapter
+com.google.gson.internal.bind.TimeTypeAdapter$1
+com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper
+com.google.gson.internal.bind.TypeAdapters
+com.google.gson.internal.bind.TypeAdapters$1
+com.google.gson.internal.bind.TypeAdapters$10
+com.google.gson.internal.bind.TypeAdapters$11
+com.google.gson.internal.bind.TypeAdapters$12
+com.google.gson.internal.bind.TypeAdapters$13
+com.google.gson.internal.bind.TypeAdapters$14
+com.google.gson.internal.bind.TypeAdapters$15
+com.google.gson.internal.bind.TypeAdapters$16
+com.google.gson.internal.bind.TypeAdapters$17
+com.google.gson.internal.bind.TypeAdapters$18
+com.google.gson.internal.bind.TypeAdapters$19
+com.google.gson.internal.bind.TypeAdapters$2
+com.google.gson.internal.bind.TypeAdapters$20
+com.google.gson.internal.bind.TypeAdapters$20$1
+com.google.gson.internal.bind.TypeAdapters$21
+com.google.gson.internal.bind.TypeAdapters$22
+com.google.gson.internal.bind.TypeAdapters$23
+com.google.gson.internal.bind.TypeAdapters$24
+com.google.gson.internal.bind.TypeAdapters$25
+com.google.gson.internal.bind.TypeAdapters$26
+com.google.gson.internal.bind.TypeAdapters$27
+com.google.gson.internal.bind.TypeAdapters$28
+com.google.gson.internal.bind.TypeAdapters$29
+com.google.gson.internal.bind.TypeAdapters$3
+com.google.gson.internal.bind.TypeAdapters$30
+com.google.gson.internal.bind.TypeAdapters$4
+com.google.gson.internal.bind.TypeAdapters$5
+com.google.gson.internal.bind.TypeAdapters$6
+com.google.gson.internal.bind.TypeAdapters$7
+com.google.gson.internal.bind.TypeAdapters$8
+com.google.gson.internal.bind.TypeAdapters$9
+com.google.gson.internal.bind.TypeAdapters$EnumTypeAdapter
+com.google.gson.reflect.TypeToken
+com.google.gson.stream.JsonReader
+com.google.gson.stream.JsonReader$1
+com.google.gson.stream.JsonReader$2
+com.google.gson.stream.JsonScope
+com.google.gson.stream.JsonToken
+com.google.gson.stream.JsonWriter
+com.google.gson.stream.JsonWriter$1
+com.google.gson.stream.MalformedJsonException
+com.google.gson.stream.StringPool
+javax.annotation.CheckForNull
+javax.annotation.CheckForSigned
+javax.annotation.CheckReturnValue
+javax.annotation.Detainted
+javax.annotation.MatchesPattern
+javax.annotation.MatchesPattern$Checker
+javax.annotation.Nonnegative
+javax.annotation.Nonnegative$Checker
+javax.annotation.Nonnull
+javax.annotation.Nonnull$Checker
+javax.annotation.Nullable
+javax.annotation.OverridingMethodsMustInvokeSuper
+javax.annotation.ParametersAreNonnullByDefault
+javax.annotation.ParametersAreNullableByDefault
+javax.annotation.PropertyKey
+javax.annotation.RegEx
+javax.annotation.RegEx$Checker
+javax.annotation.Signed
+javax.annotation.Syntax
+javax.annotation.Tainted
+javax.annotation.Untainted
+javax.annotation.WillClose
+javax.annotation.WillCloseWhenClosed
+javax.annotation.WillNotClose
+javax.annotation.concurrent.GuardedBy
+javax.annotation.concurrent.Immutable
+javax.annotation.concurrent.NotThreadSafe
+javax.annotation.concurrent.ThreadSafe
+javax.annotation.meta.Exclusive
+javax.annotation.meta.Exhaustive
+javax.annotation.meta.TypeQualifier
+javax.annotation.meta.TypeQualifierDefault
+javax.annotation.meta.TypeQualifierNickname
+javax.annotation.meta.TypeQualifierValidator
+javax.annotation.meta.When
